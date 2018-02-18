@@ -26,6 +26,9 @@
     <image:image>
       <image:loc>http://mightymainframe.com/images/pubg%20helmit.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/games.html</loc>
@@ -35,6 +38,9 @@
     <image:image>
       <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/about.html</loc>
@@ -43,6 +49,9 @@
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -61,6 +70,9 @@
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
   </url>
 </urlset>
