@@ -1,72 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://andrewcgraves.com/index.html</loc>
+    <loc>http://mightymainframe.com/index.html</loc>
     <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/white%20logo.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/dark.jpg</image:loc>
+      <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/text.svg</image:loc>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo185x185.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/rocketleague-logo185x185.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/pubg%20helmit186x168.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/rocketleague-logo.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/grass.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://andrewcgraves.com/images/overwatch_circle_logosvg.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://andrewcgraves.com/images/pubg%20helmit-crop-u1125.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/pubg%20helmit.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://andrewcgraves.com/games.html</loc>
+    <loc>http://mightymainframe.com/games.html</loc>
     <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/white%20logo.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://andrewcgraves.com/about.html</loc>
+    <loc>http://mightymainframe.com/about.html</loc>
     <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/white%20logo.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://andrewcgraves.com/home-v2.html</loc>
+    <loc>http://mightymainframe.com/home-v2.html</loc>
     <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/dark.jpg</image:loc>
+      <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://andrewcgraves.com/upcoming-events.html</loc>
+    <loc>http://mightymainframe.com/upcoming-events.html</loc>
     <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://andrewcgraves.com/images/white%20logo.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
     </image:image>
   </url>
 </urlset>

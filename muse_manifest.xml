@@ -1,13 +1,13 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="andrewcgraves.com" resolutions="1x" timestamp="1518919123434">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1518926210147">
   <folder name="css">
     <file name="site_global.css" crc="3941531175"/>
     <file name="master_c-master.css" crc="222716630" ref="home-v2"/>
-    <file name="master_b-master.css" crc="4150497036" ref="about:upcoming-events:games:index"/>
+    <file name="master_b-master.css" crc="4150497036" ref="index:about:upcoming-events:games"/>
+    <file name="index.css" crc="14270117" ref="index"/>
     <file name="about.css" crc="186467621" ref="about"/>
+    <file name="home-v2.css" crc="520237529" ref="home-v2"/>
     <file name="upcoming-events.css" crc="186467621" ref="upcoming-events"/>
     <file name="games.css" crc="186467621" ref="games"/>
-    <file name="index.css" crc="3996041068" ref="index"/>
-    <file name="home-v2.css" crc="520237529" ref="home-v2"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games:about:home-v2:upcoming-events"/>
@@ -25,9 +25,9 @@
     <file name="white logo.png" crc="400855741" seo="true" ref="index:games:about:upcoming-events">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="about" alt=""/>
       <caption webpage="games" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="upcoming-events" alt=""/>
     </file>
     <file name="u357-4.png" crc="4272343804" ref="index:games:about:upcoming-events"/>
     <file name="u358-4.png" crc="187058122" ref="index:games:about:upcoming-events"/>
@@ -37,11 +37,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="home-v2" alt=""/>
     </file>
-    <file name="u421-4.png" crc="4245768800" ref="index"/>
-    <file name="text.svg" crc="118086269" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="text_poster_.png" crc="144192243" ref="index"/>
+    <file name="u421-4.png" crc="62653343" ref="index"/>
     <file name="u449-4-a.png" crc="4272343804" ref="index"/>
     <file name="u450-4.png" crc="187058122" ref="index"/>
     <file name="u451-4.png" crc="4130402882" ref="index"/>
@@ -54,9 +50,8 @@
     <file name="u1042-a.png" crc="210733109" ref="index"/>
     <file name="u1026.png" crc="125707628" ref="index"/>
     <file name="u1026-a.png" crc="370017601" ref="index"/>
-    <file name="pubg helmit186x168.png" crc="85345794" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
+    <file name="u1052.png" crc="4265244998" ref="index"/>
+    <file name="u1052-a.png" crc="4146812142" ref="index"/>
     <file name="rocketleague-logo.png" crc="151947090" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -69,12 +64,10 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u1097-4.png" crc="41768668" ref="index"/>
-    <file name="pubg helmit-crop-u1125.png" crc="67025635" seo="true" ref="index">
+    <file name="pubg helmit.png" crc="85345794" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u1133-4.png" crc="41768668" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u835-4.png" crc="3851985083" ref="index"/>
     <file name="u520-4.png" crc="4272343804" ref="home-v2"/>
     <file name="u521-4.png" crc="187058122" ref="home-v2"/>
     <file name="u522-4.png" crc="4130402882" ref="home-v2"/>
@@ -84,7 +77,7 @@
     <file name="u559-4.png" crc="4130402882" ref="home-v2"/>
     <file name="u560-4.png" crc="4134893087" ref="home-v2"/>
   </folder>
-  <file name="index.html" crc="4002762379" seo="true" mt="1518919106590" redirect="true"/>
+  <file name="index.html" crc="191161466" seo="true" mt="1518926077588" redirect="true"/>
   <file name="games.html" crc="523523209" seo="true" mt="1518911715518" redirect="true"/>
   <file name="about.html" crc="4291011594" seo="true" mt="1518911718400" redirect="true"/>
   <file name="home-v2.html" crc="288649776" seo="true" mt="1518911752521" redirect="true"/>
