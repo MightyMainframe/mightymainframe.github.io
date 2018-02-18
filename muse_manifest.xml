@@ -1,13 +1,15 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1518931538233">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1518972822510">
   <folder name="css">
     <file name="site_global.css" crc="3941531175"/>
+    <file name="master_b-master.css" crc="397966129" ref="upcoming-events:index:about:games"/>
+    <file name="nomq_preview_master_b-master.css" crc="3929045045" ref="upcoming-events:index:about:games"/>
     <file name="master_c-master.css" crc="222716630" ref="home-v2"/>
-    <file name="master_b-master.css" crc="33807015" ref="index:about:upcoming-events:games"/>
-    <file name="index.css" crc="3977020936" ref="index"/>
-    <file name="about.css" crc="353879610" ref="about"/>
-    <file name="home-v2.css" crc="517722885" ref="home-v2"/>
     <file name="upcoming-events.css" crc="353879610" ref="upcoming-events"/>
-    <file name="games.css" crc="353879610" ref="games"/>
+    <file name="index.css" crc="3939500033" ref="index"/>
+    <file name="nomq_index.css" crc="171511892" ref="index"/>
+    <file name="about.css" crc="353879610" ref="about"/>
+    <file name="games.css" crc="37244483" ref="games"/>
+    <file name="home-v2.css" crc="308702369" ref="home-v2"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games:about:home-v2:upcoming-events"/>
@@ -15,17 +17,20 @@
     <file name="whatinput.js" crc="86476730" ref="index:games:about:home-v2:upcoming-events"/>
     <file name="museconfig.js" crc="4153641093" ref="index:games:about:home-v2:upcoming-events"/>
     <file name="jquery.watch.js" crc="99325471" ref="index:games:about:home-v2:upcoming-events"/>
-    <file name="webpro.js" crc="242022427" ref="index"/>
-    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
-    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="webpro.js" crc="242022427" ref="index:home-v2"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index:home-v2"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index:home-v2"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index:home-v2"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
     <file name="require.js" crc="4157109226" ref="index:games:about:home-v2:upcoming-events"/>
   </folder>
   <folder name="images">
+    <file name="favicon.ico" crc="88503871" ref="index"/>
     <file name="white logo.png" crc="400855741" seo="true" ref="index:games:about:upcoming-events">
       <caption webpage="index" alt=""/>
-      <caption webpage="games" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="about" alt=""/>
+      <caption webpage="games" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
     </file>
     <file name="u357-4.png" crc="4272343804" ref="index:games:about:upcoming-events"/>
@@ -36,9 +41,9 @@
       <caption webpage="index" alt=""/>
       <caption webpage="home-v2" alt=""/>
     </file>
+    <file name="u1744-4.png" crc="4293974602" ref="index"/>
     <file name="u2157-4-a.png" crc="86680391" ref="index"/>
-    <file name="u1744-4.png" crc="62653343" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:home-v2"/>
     <file name="u2158_states.png" crc="4023739077" ref="index"/>
     <file name="u2158_states-r.png" crc="285219040" ref="index"/>
     <file name="u2159_states.png" crc="3805657119" ref="index"/>
@@ -46,46 +51,116 @@
     <file name="u2160_states.png" crc="472045099" ref="index"/>
     <file name="u2160_states-r.png" crc="510980917" ref="index"/>
     <file name="u815-4.png" crc="3767654787" ref="index"/>
-    <file name="rocketleague-logo185x185.png" crc="3917043609" seo="true" ref="index">
+    <file name="rocketleague-logo185x185.png" crc="318433741" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u1042.png" crc="5029171" ref="index"/>
-    <file name="u1042-a.png" crc="210733109" ref="index"/>
-    <file name="u1026.png" crc="125707628" ref="index"/>
-    <file name="u1026-a.png" crc="370017601" ref="index"/>
-    <file name="u1052.png" crc="4265244998" ref="index"/>
-    <file name="u1052-a.png" crc="4146812142" ref="index"/>
-    <file name="rocketleague-logo.png" crc="151947090" seo="true" ref="index">
+    <file name="u1042.png" crc="4224885628" ref="index"/>
+    <file name="u1042-a.png" crc="345870022" ref="index"/>
+    <file name="u1026.png" crc="3813327168" ref="index"/>
+    <file name="u1026-a.png" crc="523108524" ref="index"/>
+    <file name="u1052.png" crc="457917367" ref="index"/>
+    <file name="u1052-a.png" crc="4030269181" ref="index"/>
+    <file name="grass.png" crc="436184691" seo="true" ref="index:home-v2">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="u1068-5.png" crc="4178843268" ref="index"/>
-    <file name="grass.png" crc="436184691" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="home-v2" alt=""/>
     </file>
     <file name="u1088-4.png" crc="41768668" ref="index"/>
-    <file name="overwatch_circle_logosvg.png" crc="335781327" seo="true" ref="index">
+    <file name="overwatch_circle_logosvg.png" crc="335781327" seo="true" ref="index:home-v2">
       <caption webpage="index" alt=""/>
+      <caption webpage="home-v2" alt=""/>
     </file>
     <file name="u1097-4.png" crc="41768668" ref="index"/>
-    <file name="pubg helmit.png" crc="85345794" seo="true" ref="index">
+    <file name="pubg helmit-crop-u1125.png" crc="67025635" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u1133-4.png" crc="41768668" ref="index"/>
+    <file name="rocketleague-logo328x328.png" crc="4242908441" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3608-5.png" crc="4178843268" ref="index"/>
     <file name="logo white.png" crc="239744689" seo="true" ref="index:games:about:upcoming-events">
       <caption webpage="index" alt=""/>
-      <caption webpage="games" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="about" alt=""/>
+      <caption webpage="games" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
     </file>
     <file name="u1848-4.png" crc="4035264686" ref="index:games:about:upcoming-events"/>
+    <file name="dark1402x789.jpg" crc="459634772" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1744-42.png" crc="3947673030" ref="index"/>
+    <file name="u2157-4-a2.png" crc="86680391" ref="index"/>
+    <file name="u2158_states2.png" crc="4023739077" ref="index"/>
+    <file name="u2158_states-r2.png" crc="285219040" ref="index"/>
+    <file name="u2159_states2.png" crc="3805657119" ref="index"/>
+    <file name="u2159_states-r2.png" crc="442981313" ref="index"/>
+    <file name="u2160_states2.png" crc="472045099" ref="index"/>
+    <file name="u2160_states-r2.png" crc="510980917" ref="index"/>
+    <file name="u815-42.png" crc="3764747925" ref="index"/>
+    <file name="u10422.png" crc="365517276" ref="index"/>
+    <file name="u1042-a2.png" crc="64996299" ref="index"/>
+    <file name="u10262.png" crc="4202193932" ref="index"/>
+    <file name="u1026-a2.png" crc="145577865" ref="index"/>
+    <file name="u10522.png" crc="4141212147" ref="index"/>
+    <file name="u1052-a2.png" crc="4069481452" ref="index"/>
+    <file name="rocketleague-logo.png" crc="3940516403" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1088-42.png" crc="83739608" ref="index"/>
+    <file name="overwatch_circle_logosvg232x232.png" crc="365811922" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1097-42.png" crc="83739608" ref="index"/>
+    <file name="pubg helmit-crop-u11252.png" crc="4168145392" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1133-42.png" crc="83739608" ref="index"/>
+    <file name="rocketleague-logo323x323.png" crc="3943819466" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3608-52.png" crc="3843857366" ref="index"/>
     <file name="u520-4.png" crc="4272343804" ref="home-v2"/>
     <file name="u521-4.png" crc="187058122" ref="home-v2"/>
     <file name="u522-4.png" crc="4130402882" ref="home-v2"/>
     <file name="u523-4.png" crc="4134893087" ref="home-v2"/>
+    <file name="u2560-4.png" crc="62653343" ref="home-v2"/>
+    <file name="u2561_states.png" crc="86680391" ref="home-v2"/>
+    <file name="u2561_states-r.png" crc="281305921" ref="home-v2"/>
+    <file name="u2562_states.png" crc="4023739077" ref="home-v2"/>
+    <file name="u2562_states-r.png" crc="285219040" ref="home-v2"/>
+    <file name="u2563_states.png" crc="3805657119" ref="home-v2"/>
+    <file name="u2563_states-r.png" crc="442981313" ref="home-v2"/>
+    <file name="u2564_states.png" crc="472045099" ref="home-v2"/>
+    <file name="u2564_states-r.png" crc="510980917" ref="home-v2"/>
+    <file name="u2513-4.png" crc="3767654787" ref="home-v2"/>
+    <file name="u3079.png" crc="4128360687" ref="home-v2"/>
+    <file name="u3079-a.png" crc="4202188386" ref="home-v2"/>
+    <file name="u3086.png" crc="4265572871" ref="home-v2"/>
+    <file name="u3086-a.png" crc="512348055" ref="home-v2"/>
+    <file name="u3093.png" crc="4181129272" ref="home-v2"/>
+    <file name="u3093-a.png" crc="157351604" ref="home-v2"/>
+    <file name="u2550.png" crc="5029171" ref="home-v2"/>
+    <file name="u2550-a.png" crc="210733109" ref="home-v2"/>
+    <file name="u2546.png" crc="125707628" ref="home-v2"/>
+    <file name="u2546-a.png" crc="370017601" ref="home-v2"/>
+    <file name="u2543.png" crc="4265244998" ref="home-v2"/>
+    <file name="u2543-a.png" crc="4146812142" ref="home-v2"/>
+    <file name="rocketleague-logo318x318.png" crc="349573997" seo="true" ref="home-v2">
+      <caption webpage="home-v2" alt=""/>
+    </file>
+    <file name="u2518-5.png" crc="4178843268" ref="home-v2"/>
+    <file name="u2533-4.png" crc="41768668" ref="home-v2"/>
+    <file name="u2523-4.png" crc="41768668" ref="home-v2"/>
+    <file name="pubg helmit-crop-u2527.png" crc="67025635" seo="true" ref="home-v2">
+      <caption webpage="home-v2" alt=""/>
+    </file>
+    <file name="u2530-4.png" crc="41768668" ref="home-v2"/>
   </folder>
-  <file name="index.html" crc="4121644729" seo="true" mt="1518931499220" redirect="true"/>
-  <file name="games.html" crc="3932946121" seo="true" mt="1518929765892" redirect="true"/>
-  <file name="about.html" crc="4045193915" seo="true" mt="1518929765892" redirect="true"/>
-  <file name="home-v2.html" crc="178371896" seo="true" mt="1518930901993" redirect="true"/>
-  <file name="upcoming-events.html" crc="78091716" seo="true" mt="1518929765892" redirect="true"/>
+  <file name="index.html" crc="4151214167" seo="true" mt="1518972801122" redirect="true"/>
+  <file name="games.html" crc="121889689" seo="true" mt="1518970368753" redirect="true"/>
+  <file name="about.html" crc="3911785556" seo="true" mt="1518970368753" redirect="true"/>
+  <file name="home-v2.html" crc="3921726682" seo="true" mt="1518972539800" redirect="true"/>
+  <file name="upcoming-events.html" crc="4133137210" seo="true" mt="1518970368753" redirect="true"/>
 </manifest>
