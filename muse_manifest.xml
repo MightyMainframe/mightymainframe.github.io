@@ -1,13 +1,13 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519278421429">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519310413696">
   <folder name="css">
     <file name="site_global.css" crc="4173681380"/>
-    <file name="master_b-master.css" crc="4097551416" ref="upcoming-events:games"/>
     <file name="master_c-master.css" crc="222716630" ref="home-v2"/>
-    <file name="about.css" crc="4243230000" ref="about"/>
-    <file name="home-v2.css" crc="387344041" ref="home-v2"/>
+    <file name="master_b-master.css" crc="4097551416" ref="upcoming-events:games"/>
     <file name="upcoming-events.css" crc="3943895320" ref="upcoming-events"/>
+    <file name="about.css" crc="204971850" ref="about"/>
+    <file name="home-v2.css" crc="387344041" ref="home-v2"/>
     <file name="games.css" crc="417413500" ref="games"/>
-    <file name="index.css" crc="34979155" ref="index"/>
+    <file name="index.css" crc="4143375478" ref="index"/>
     <file name="nomq_index.css" crc="4276592375" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -38,6 +38,9 @@
     <file name="u2159_states-r.png" crc="442981313" ref="index"/>
     <file name="u2160_states.png" crc="472045099" ref="index"/>
     <file name="u2160_states-r.png" crc="510980917" ref="index"/>
+    <file name="dark1280x720.jpg" crc="125766257" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="u1744-42.png" crc="3856235579" ref="index"/>
     <file name="u2157-4-a2.png" crc="86680391" ref="index"/>
     <file name="u2158_states2.png" crc="4023739077" ref="index"/>
@@ -46,13 +49,10 @@
     <file name="u2159_states-r2.png" crc="442981313" ref="index"/>
     <file name="u2160_states2.png" crc="472045099" ref="index"/>
     <file name="u2160_states-r2.png" crc="510980917" ref="index"/>
-    <file name="dark1280x720.jpg" crc="125766257" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="logo white.png" crc="239744689" seo="true" ref="games:about:upcoming-events">
       <caption webpage="about" alt=""/>
-      <caption webpage="games" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
+      <caption webpage="games" alt=""/>
     </file>
     <file name="u1848-4.png" crc="4035264686" ref="games:upcoming-events"/>
     <file name="u4160_states.png" crc="4127242130" ref="about"/>
@@ -70,13 +70,19 @@
     <file name="u3962-4.png" crc="3964853413" ref="about"/>
     <file name="acg (profile pic 3).png" crc="193937597" seo="true" ref="about">
       <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
     </file>
     <file name="u4006-4.png" crc="3798727529" ref="about"/>
     <file name="image_2.png" crc="3761925914" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
     <file name="u4038-4.png" crc="184013959" ref="about"/>
+    <file name="u4259-4.png" crc="3996424279" ref="about"/>
+    <file name="lordy.jpg" crc="4249678727" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="monkeyhatlogo.jpg" crc="4008402057" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
     <file name="u4150-4.png" crc="4035264686" ref="about"/>
     <file name="u520-4.png" crc="4272343804" ref="home-v2"/>
     <file name="u521-4.png" crc="187058122" ref="home-v2"/>
@@ -125,9 +131,9 @@
     </file>
     <file name="u2530-4.png" crc="41768668" ref="home-v2"/>
   </folder>
-  <file name="index.html" crc="374140912" seo="true" mt="1519278405950" redirect="true"/>
+  <file name="index.html" crc="35761416" seo="true" mt="1519278405950" redirect="true"/>
   <file name="games.html" crc="4066323407" seo="true" mt="1519193377973" redirect="true"/>
-  <file name="about.html" crc="417633674" seo="true" mt="1519277712135" redirect="true"/>
+  <file name="about.html" crc="4186908501" seo="true" mt="1519310371211" redirect="true"/>
   <file name="home-v2.html" crc="4242997102" seo="true" mt="1518972539800" redirect="true"/>
   <file name="upcoming-events.html" crc="365670399" seo="true" mt="1519193377973" redirect="true"/>
 </manifest>
