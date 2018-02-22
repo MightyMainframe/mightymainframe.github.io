@@ -2,71 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://mightymainframe.com/index.html</loc>
-    <lastmod>2018-02-18</lastmod>
+    <lastmod>2018-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo185x185.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/dark1366x769.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/dark1280x720.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit-crop-u1125.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo328x328.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/dark1402x789.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg232x232.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit-crop-u11252.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo323x323.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/dark889x500.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/games.html</loc>
-    <lastmod>2018-02-18</lastmod>
+    <lastmod>2018-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/about.html</loc>
-    <lastmod>2018-02-18</lastmod>
+    <lastmod>2018-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/colored%20logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/acg%20(profile%20pic%203).png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/image_2.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -78,13 +54,16 @@
       <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo185x185.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo318x318.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/pubg%20helmit-crop-u2527.png</image:loc>
@@ -92,12 +71,9 @@
   </url>
   <url>
     <loc>http://mightymainframe.com/upcoming-events.html</loc>
-    <lastmod>2018-02-18</lastmod>
+    <lastmod>2018-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/white%20logo.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
