@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519310413696">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519359714759">
   <folder name="css">
     <file name="site_global.css" crc="4173681380"/>
     <file name="master_c-master.css" crc="222716630" ref="home-v2"/>
     <file name="master_b-master.css" crc="4097551416" ref="upcoming-events:games"/>
     <file name="upcoming-events.css" crc="3943895320" ref="upcoming-events"/>
-    <file name="about.css" crc="204971850" ref="about"/>
+    <file name="about.css" crc="314806083" ref="about"/>
     <file name="home-v2.css" crc="387344041" ref="home-v2"/>
     <file name="games.css" crc="417413500" ref="games"/>
     <file name="index.css" crc="4143375478" ref="index"/>
@@ -24,7 +24,7 @@
     <file name="touchswipe.js" crc="4066113679" ref="home-v2"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="88503871" ref="index"/>
+    <file name="favicon.ico" crc="88503871" ref="index:about"/>
     <file name="dark.jpg" crc="178646584" seo="true" ref="index:home-v2">
       <caption webpage="index" alt=""/>
       <caption webpage="home-v2" alt=""/>
@@ -71,16 +71,13 @@
     <file name="acg (profile pic 3).png" crc="193937597" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
-    <file name="u4006-4.png" crc="3798727529" ref="about"/>
+    <file name="u4006-4.png" crc="206585261" ref="about"/>
     <file name="image_2.png" crc="3761925914" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
     <file name="u4038-4.png" crc="184013959" ref="about"/>
-    <file name="u4259-4.png" crc="3996424279" ref="about"/>
+    <file name="u4259-4.png" crc="4193257879" ref="about"/>
     <file name="lordy.jpg" crc="4249678727" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="monkeyhatlogo.jpg" crc="4008402057" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
     <file name="u4150-4.png" crc="4035264686" ref="about"/>
@@ -130,10 +127,13 @@
       <caption webpage="home-v2" alt=""/>
     </file>
     <file name="u2530-4.png" crc="41768668" ref="home-v2"/>
+    <file name="monkeydks_title_screen_head.png" crc="507918197" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="35761416" seo="true" mt="1519278405950" redirect="true"/>
   <file name="games.html" crc="4066323407" seo="true" mt="1519193377973" redirect="true"/>
-  <file name="about.html" crc="4186908501" seo="true" mt="1519310371211" redirect="true"/>
+  <file name="about.html" crc="183093111" seo="true" mt="1519359645981" redirect="true"/>
   <file name="home-v2.html" crc="4242997102" seo="true" mt="1518972539800" redirect="true"/>
   <file name="upcoming-events.html" crc="365670399" seo="true" mt="1519193377973" redirect="true"/>
 </manifest>
