@@ -9,9 +9,6 @@
       <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/dark1280x720.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://mightymainframe.com/images/discord-logo-white.png</image:loc>
     </image:image>
   </url>
@@ -24,19 +21,46 @@
       <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo198x198.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg172x172.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/pubg%20helmit190x172.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/pubg%20helmit152x137.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo158x158.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg137x137.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo179x179.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/pubg%20helmit160x145.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg142x142.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo164x163.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg149x149.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/pubg%20helmit165x149.png</image:loc>
     </image:image>
   </url>
   <url>
