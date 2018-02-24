@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519454957083">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519498074761">
   <folder name="css">
     <file name="site_global.css" crc="3908197338"/>
     <file name="master_c-master.css" crc="222716630" ref="home-v2"/>
     <file name="master_b-master.css" crc="4222988593" ref="games"/>
     <file name="upcoming-events.css" crc="22118854" ref="upcoming-events"/>
-    <file name="about.css" crc="4032025958" ref="about"/>
+    <file name="about.css" crc="54518921" ref="about"/>
     <file name="home-v2.css" crc="308702369" ref="home-v2"/>
     <file name="games.css" crc="444302544" ref="games"/>
     <file name="index.css" crc="11334932" ref="index"/>
@@ -24,7 +24,7 @@
     <file name="touchswipe.js" crc="4066113679" ref="home-v2"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="88503871" ref="index"/>
+    <file name="favicon.ico" crc="88503871" ref="index:about"/>
     <file name="dark.jpg" crc="178646584" seo="true" ref="index:home-v2">
       <caption webpage="index" alt=""/>
       <caption webpage="home-v2" alt=""/>
@@ -50,9 +50,9 @@
     <file name="u2160_states2.png" crc="472045099" ref="index"/>
     <file name="u2160_states-r2.png" crc="510980917" ref="index"/>
     <file name="logo white.png" crc="239744689" seo="true" ref="games:about:upcoming-events">
-      <caption webpage="about" alt=""/>
       <caption webpage="games" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
+      <caption webpage="about" alt=""/>
     </file>
     <file name="u1848-4.png" crc="4035264686" ref="games"/>
     <file name="u4160_states.png" crc="4127242130" ref="about"/>
@@ -154,6 +154,8 @@
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
     </file>
     <file name="mixermerge_black.png" crc="202979037" seo="true" ref="about">
       <caption webpage="about" alt=""/>
@@ -165,10 +167,13 @@
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
     </file>
+    <file name="nobbys_nuts.jpg" crc="72606305" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="408674050" seo="true" mt="1519442434002" redirect="true"/>
   <file name="games.html" crc="339859898" seo="true" mt="1519442580512" redirect="true"/>
-  <file name="about.html" crc="137415007" seo="true" mt="1519454889373" redirect="true"/>
+  <file name="about.html" crc="3922549637" seo="true" mt="1519497948891" redirect="true"/>
   <file name="home-v2.html" crc="324849994" seo="true" mt="1519435081817" redirect="true"/>
   <file name="upcoming-events.html" crc="226459096" seo="true" mt="1519442203805" redirect="true"/>
 </manifest>

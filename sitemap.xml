@@ -35,7 +35,7 @@
   </url>
   <url>
     <loc>http://mightymainframe.com/about.html</loc>
-    <lastmod>2018-02-23</lastmod>
+    <lastmod>2018-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -64,6 +64,9 @@
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/asset%201.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/nobbys_nuts.jpg</image:loc>
     </image:image>
   </url>
   <url>
