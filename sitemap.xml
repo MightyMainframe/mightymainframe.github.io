@@ -56,6 +56,15 @@
     <image:image>
       <image:loc>http://mightymainframe.com/images/monkeydks_title_screen_head.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/twitter.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/mixermerge_black.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/asset%201.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/home-v2.html</loc>
