@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://mightymainframe.com/index.html</loc>
-    <lastmod>2018-02-23</lastmod>
+    <lastmod>2018-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -11,26 +11,32 @@
     <image:image>
       <image:loc>http://mightymainframe.com/images/dark1280x720.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/discord-logo-white.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/games.html</loc>
-    <lastmod>2018-02-23</lastmod>
+    <lastmod>2018-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://mightymainframe.com/images/rocketleague-logo.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo198x198.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg172x172.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit190x172.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/pubg%20helmit.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -68,38 +74,23 @@
     <image:image>
       <image:loc>http://mightymainframe.com/images/nobbys_nuts.jpg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://mightymainframe.com/home-v2.html</loc>
-    <lastmod>2018-02-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo185x185.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit-crop-u2527.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/delltalogo.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://mightymainframe.com/upcoming-events.html</loc>
-    <lastmod>2018-02-23</lastmod>
+    <lastmod>2018-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
   </url>
 </urlset>
