@@ -1,13 +1,14 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519607953409">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519608309111">
   <folder name="css">
     <file name="site_global.css" crc="3906561180"/>
     <file name="upcoming-events.css" crc="67231620" ref="upcoming-events"/>
     <file name="about.css" crc="126079700" ref="about"/>
     <file name="games.css" crc="229800286" ref="games"/>
-    <file name="index.css" crc="347958737" ref="index"/>
+    <file name="index.css" crc="3901091043" ref="index"/>
     <file name="nomq_games.css" crc="4235050206" ref="games"/>
     <file name="nomq_about.css" crc="4226662364" ref="about"/>
     <file name="nomq_upcoming-events.css" crc="4212485855" ref="upcoming-events"/>
+    <file name="nomq_index.css" crc="4212501715" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games:about:upcoming-events"/>
@@ -15,10 +16,10 @@
     <file name="whatinput.js" crc="86476730" ref="index:games:about:upcoming-events"/>
     <file name="museconfig.js" crc="4153641093" ref="index:games:about:upcoming-events"/>
     <file name="jquery.watch.js" crc="99325471" ref="index:games:about:upcoming-events"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="games:about:upcoming-events"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="games:about:upcoming-events:index"/>
     <file name="require.js" crc="4157109226" ref="index:games:about:upcoming-events"/>
-    <file name="webpro.js" crc="242022427" ref="games:about:upcoming-events"/>
-    <file name="musewpdisclosure.js" crc="119288625" ref="games:about:upcoming-events"/>
+    <file name="webpro.js" crc="242022427" ref="games:about:upcoming-events:index"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="games:about:upcoming-events:index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="88503871" ref="index:games"/>
@@ -127,16 +128,6 @@
     <file name="u4858_states-r.png" crc="4141604423" ref="upcoming-events"/>
     <file name="u4859_states.png" crc="266738960" ref="upcoming-events"/>
     <file name="u4859_states-r.png" crc="3956063395" ref="upcoming-events"/>
-    <file name="u4885-4-a.png" crc="86680391" ref="index"/>
-    <file name="u4886_states.png" crc="4023739077" ref="index"/>
-    <file name="u4886_states-r.png" crc="285219040" ref="index"/>
-    <file name="u4887_states.png" crc="3805657119" ref="index"/>
-    <file name="u4887_states-r.png" crc="442981313" ref="index"/>
-    <file name="u4888_states.png" crc="472045099" ref="index"/>
-    <file name="u4888_states-r.png" crc="510980917" ref="index"/>
-    <file name="discord-logo-white.png" crc="219161000" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="rocketleague-logo198x198.png" crc="3803248172" seo="true" ref="games">
       <caption webpage="games" alt=""/>
     </file>
@@ -288,8 +279,41 @@
     <file name="u9596_states-r4.png" crc="269725439" ref="upcoming-events"/>
     <file name="u9595_states4.png" crc="81237571" ref="upcoming-events"/>
     <file name="u9595_states-r4.png" crc="4147865397" ref="upcoming-events"/>
+    <file name="dark1304x734.jpg" crc="3962466142" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u9956-4-a.png" crc="523789979" ref="index"/>
+    <file name="u9957_states.png" crc="298668432" ref="index"/>
+    <file name="u9957_states-r.png" crc="508909047" ref="index"/>
+    <file name="u9959_states.png" crc="117695760" ref="index"/>
+    <file name="u9959_states-r.png" crc="138633935" ref="index"/>
+    <file name="u9958_states.png" crc="3858678718" ref="index"/>
+    <file name="u9958_states-r.png" crc="436866312" ref="index"/>
+    <file name="u1744-42.png" crc="4085320734" ref="index"/>
+    <file name="dark935x526.jpg" crc="247244579" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u9956-4-a2.png" crc="523789979" ref="index"/>
+    <file name="u9957_states2.png" crc="298668432" ref="index"/>
+    <file name="u9957_states-r2.png" crc="508909047" ref="index"/>
+    <file name="u9959_states2.png" crc="117695760" ref="index"/>
+    <file name="u9959_states-r2.png" crc="138633935" ref="index"/>
+    <file name="u9958_states2.png" crc="3858678718" ref="index"/>
+    <file name="u9958_states-r2.png" crc="436866312" ref="index"/>
+    <file name="u1744-43.png" crc="3905244454" ref="index"/>
+    <file name="dark480x270.jpg" crc="430449131" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u9956-4-a3.png" crc="523789979" ref="index"/>
+    <file name="u9957_states3.png" crc="298668432" ref="index"/>
+    <file name="u9957_states-r3.png" crc="508909047" ref="index"/>
+    <file name="u9959_states3.png" crc="117695760" ref="index"/>
+    <file name="u9959_states-r3.png" crc="138633935" ref="index"/>
+    <file name="u9958_states3.png" crc="3858678718" ref="index"/>
+    <file name="u9958_states-r3.png" crc="436866312" ref="index"/>
+    <file name="u1744-44.png" crc="289675335" ref="index"/>
   </folder>
-  <file name="index.html" crc="329120739" seo="true" mt="1519510657988" redirect="true"/>
+  <file name="index.html" crc="3876843949" seo="true" mt="1519608308036" redirect="true"/>
   <file name="games.html" crc="501748153" seo="true" mt="1519607795372" redirect="true"/>
   <file name="about.html" crc="3979591094" seo="true" mt="1519607810203" redirect="true"/>
   <file name="upcoming-events.html" crc="3937392111" seo="true" mt="1519607947478" redirect="true"/>
