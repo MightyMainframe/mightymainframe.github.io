@@ -11,21 +11,25 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "about.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpdisclosure.js", "jquery.museresponsive.js", "require.js", "about.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=88503871"/>
   <title>About</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3908197338"/>
-  <link rel="stylesheet" type="text/css" href="css/about.css?crc=514285792" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3906561180"/>
+  <link rel="stylesheet" type="text/css" href="css/about.css?crc=126079700" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_about.css?crc=4226662364" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/amaranth:n7:default.js" type="text/javascript"></script>
-  <script src="https://use.typekit.net/ik/ejumJgHsa_HlMQ0J6g2AU1fjLj3tQ5yi32hBiBwgzWMfeT9gfJPly6wPH2jD5Q9uwRsLZcwuF24KjQMk52IkFQSaZQMhFeIkwDqhwR4cwhJojR9-bPG0dA81-YsodABTdcZkjAu8OcFzdPUl-AiGiY8ljA80Z14ydA90jhNlOYiaikol-AiGiY8ljA80Z14ydA90jhNlJ68zSem0OWFyd1w7fbRmSsMMeMj6MqGIQWmDZZMgvVQeuM9.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/GifnY5zlCG4KUtXoK7cQTEuI7mctPUz0UHd0wlWR-9bfeT9gfJPly6wPH2jD5Q9uwRsLZcwuF24KjQMk52IkFQSaZQMhFeIkwDqhwR4cwhJojR9-bPG0dA81-YsodABTdcZkjAu8OcFzdPUl-AiGiY8ljA80Z14ydA90jhNlOYiaikol-AiGiY8ljA80Z14ydA90jhNlJ68zSem0OWFyd1w7fbRmSsMMeMj6MqGIQWmDZZMgqSRFuM9.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -33,134 +37,328 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pppu4160"><!-- column -->
-    <div class="clearfix colelem" id="ppu4160"><!-- group -->
-     <a class="nonblock nontext grpelem" id="u4160" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- state-based BG images --><img id="u4160_states" alt="Welcome" src="images/blank.gif?crc=4208392903"/></a>
-     <a class="nonblock nontext grpelem" id="u4161" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- state-based BG images --><img id="u4161_states" alt="Events" src="images/blank.gif?crc=4208392903"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4825" href="https://discord.gg/HkW8WAu" target="_blank"><!-- image --><img class="block" id="u4825_img" src="images/discord-logo-black.png?crc=216633692" alt="" title="Join our discord!" data-heightwidthratio="0.9818181818181818" data-image-width="55" data-image-height="54"/></a>
-     <a class="nonblock nontext grpelem" id="u4162" href="games.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- state-based BG images --><img id="u4162_states" alt="Games" src="images/blank.gif?crc=4208392903"/></a>
-     <a class="nonblock nontext MuseLinkActive grpelem" id="u4163-4" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- rasterized frame --><img id="u4163-4_img" alt="About" width="117" height="42" src="images/u4163-4-a.png?crc=266738960"/></a>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="1530"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pppu4160"><!-- column -->
+     <div class="clearfix colelem" id="ppu4160"><!-- group -->
+      <a class="nonblock nontext grpelem shared_content" id="u4160" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u4160_content"><!-- state-based BG images --><img id="u4160_states" alt="Welcome" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext grpelem shared_content" id="u4161" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u4161_content"><!-- state-based BG images --><img id="u4161_states" alt="Events" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem shared_content" id="u4825" href="https://discord.gg/HkW8WAu" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u4825_content"><!-- image --><img class="block temp_no_img_src" id="u4825_img" data-orig-src="images/discord-logo-black.png?crc=216633692" alt="" title="Join our discord!" width="55" height="54" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext grpelem shared_content" id="u4162" href="games.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u4162_content"><!-- state-based BG images --><img id="u4162_states" alt="Games" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext MuseLinkActive grpelem" id="u4163-4" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- rasterized frame --><img class="temp_no_img_src" id="u4163-4_img" alt="About" width="117" height="42" data-orig-src="images/u4163-4-a.png?crc=266738960" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <div class="clearfix colelem shared_content" id="ppu3818-4" data-content-guid="ppu3818-4_content"><!-- group -->
+      <div class="clearfix grpelem" id="pu3818-4"><!-- column -->
+       <div class="Header-Style clearfix colelem shared_content" id="u3818-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u3818-4_content"><!-- content -->
+        <h1>Why we exist</h1>
+       </div>
+       <div class="Secondary-Paragraph-Style clearfix colelem shared_content" id="u3821-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u3821-4_content"><!-- content -->
+        <p>Mighty Mainframe is a community of gamers banded together to participate in tournaments and other events for many different games. Starting off as &quot;Community Craft&quot; we grew from a server with a few people hosting Minecraft UHC's to a super organized community 100 people strong.</p>
+       </div>
+      </div>
+      <div class="clip_frame grpelem" id="u3843" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+       <img class="block temp_no_img_src" id="u3843_img" data-orig-src="images/colored%20logo.png?crc=3786979400" alt="" width="219" height="300" src="images/blank.gif?crc=4208392903"/>
+      </div>
+     </div>
+     <div class="Header-Style clearfix colelem shared_content" id="u4078-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4078-4_content"><!-- content -->
+      <h1>Aiming for the future</h1>
+     </div>
+     <div class="Secondary-Paragraph-Style clearfix colelem shared_content" id="u4075-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4075-4_content"><!-- content -->
+      <p>In the future we hope to provide access to simple fun tournaments of many different games to a large audience. The more people we can provide to, the more events we can host!</p>
+     </div>
+     <div class="clearfix colelem" id="pu3833"><!-- group -->
+      <div class="browser_width grpelem" id="u3833-bw">
+       <div id="u3833"><!-- simple frame --></div>
+      </div>
+      <div class="Header-Style clearfix grpelem shared_content" id="u3827-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u3827-4_content"><!-- content -->
+       <h1>Meet the team</h1>
+      </div>
+      <div class="Secondary-Heading clearfix grpelem shared_content" id="u3953-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u3953-4_content"><!-- content -->
+       <h2>Acg1000</h2>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u3962-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u3962-4_content"><!-- content -->
+       <p>Acg is the founder of Mighty Mainframe, known as Titancraft UHC back in the day. Now-a-days he still oversees all things going on along with working on this website and scheduling events.</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u8906" data-content-guid="u8906_content"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u4002"><!-- group -->
+        <div class="clip_frame grpelem" id="u3965" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+         <img class="block temp_no_img_src" id="u3965_img" data-orig-src="images/acg%20(profile%20pic%203).png?crc=193937597" alt="" width="193" height="219" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="Secondary-Heading clearfix grpelem shared_content" id="u4005-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4005-4_content"><!-- content -->
+       <h2>Sir_Oswyn</h2>
+      </div>
+      <div class="Secondary-Heading clearfix grpelem shared_content" id="u4758-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4758-4_content"><!-- content -->
+       <h2>Dragon</h2>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4006-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4006-4_content"><!-- content -->
+       <p>Sir_Oswyn is one of the great gaming aficionado of this world! He loves long walks on the beach and special gaming events like UHC's, tournaments etc! Oswyn has always love community events and is excited to see all the fun times that we'll have with Mighty Mainframe!</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4761-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4761-4_content"><!-- content -->
+       <p>ok soon™</p>
+      </div>
+      <div class="Secondary-Heading clearfix grpelem shared_content" id="u4037-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4037-4_content"><!-- content -->
+       <h2>LordOfTheUndead</h2>
+      </div>
+      <div class="Secondary-Heading clearfix grpelem shared_content" id="u4262-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4262-4_content"><!-- content -->
+       <h2>MonkeyDKS</h2>
+      </div>
+      <div class="Secondary-Heading clearfix grpelem shared_content" id="u4781-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4781-4_content"><!-- content -->
+       <h2>Nobbienuts</h2>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4038-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4038-4_content"><!-- content -->
+       <p>LordOfTheUndead is Mighty Mainframe's lead dev and has been around since the start. He is the wonderful wizard behind anything that requires any code. He also serves as one of the managers for the server, helping out wherever it is needed.</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4259-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4259-4_content"><!-- content -->
+       <p>MonkeyDKS is a gamer from the Boston area.&nbsp; On staff at a local TV studio, he works with the local High School TV Club to film sporting events, concerts, theatre shows and more.&nbsp; Monkey joined Mighty Mainframe in 2017 and helps run the Minecraft UHC's and sometimes runs backup for Rocket League as well!</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4778-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4778-4_content"><!-- content -->
+       <p>Nobbie is just dunk all the time.</p>
+      </div>
+      <div class="shadow rounded-corners clearfix grpelem shared_content" id="u4250" data-content-guid="u4250_content"><!-- group -->
+       <div class="clip_frame grpelem" id="u4285" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+        <img class="block temp_no_img_src" id="u4285_img" data-orig-src="images/monkeydks_title_screen_head.png?crc=507918197" alt="" width="313" height="176" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="shadow rounded-corners clearfix grpelem shared_content" id="u4696" data-content-guid="u4696_content"><!-- group -->
+       <div class="rounded-corners clip_frame grpelem" id="u4805" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+        <img class="block temp_no_img_src" id="u4805_img" data-orig-src="images/nobbys_nuts.jpg?crc=72606305" alt="" width="190" height="191" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u8918" data-content-guid="u8918_content"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u4007"><!-- group -->
+        <div class="clip_frame grpelem" id="u4062" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+         <img class="block temp_no_img_src" id="u4062_img" data-orig-src="images/image_2.png?crc=3761925914" alt="" width="244" height="244" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u8912" data-content-guid="u8912_content"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u4039"><!-- group -->
+        <div class="rounded-corners clip_frame grpelem" id="u4275" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+         <img class="block temp_no_img_src" id="u4275_img" data-orig-src="images/lordy.jpg?crc=4249678727" alt="" width="191" height="191" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <a class="nonblock nontext clip_frame grpelem" id="u4563" href="https://twitter.com/Sir_Oswyn" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4563_img" data-orig-src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4764" href="https://twitter.com/delltadragon" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4764_img" data-orig-src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4573" href="https://twitter.com/acg1000_" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4573_img" data-orig-src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4580" href="http://twitter.com/MonkeyDKS" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4580_img" data-orig-src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4784" href="https://twitter.com/Nobblenuts" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4784_img" data-orig-src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4587" href="https://twitter.com/_UndeadGaming_" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4587_img" data-orig-src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4594" href="https://mixer.com/acg1000" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4594_img" data-orig-src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4651" href="https://mixer.com/sir_oswyn" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4651_img" data-orig-src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4665" href="https://mixer.com/monkeydks" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4665_img" data-orig-src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4686" href="https://mixer.com/lordoftheundead" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4686_img" data-orig-src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4641" href="http://youtube.com/acg1000" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4641_img" data-orig-src="images/asset%201.png?crc=105149088" alt="" data-heightwidthratio="0.7058823529411765" data-image-width="68" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u4672" href="https://www.youtube.com/channel/UC07TV25Rd7jWnjjqUt3DFYQ" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4672_img" data-orig-src="images/asset%201.png?crc=105149088" alt="" data-heightwidthratio="0.7058823529411765" data-image-width="68" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
+      <div class="clearfix grpelem shared_content" id="u8924" data-content-guid="u8924_content"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u4693"><!-- group -->
+        <div class="clip_frame grpelem" id="u4873" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+         <img class="block temp_no_img_src" id="u4873_img" data-orig-src="images/delltalogo.png?crc=273541567" alt="" width="215" height="215" src="images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="colelem shared_content" id="u8930" data-content-guid="u8930_content"><!-- simple frame --></div>
     </div>
-    <div class="clearfix colelem" id="ppu3818-4"><!-- group -->
-     <div class="clearfix grpelem" id="pu3818-4"><!-- column -->
-      <div class="Header-Style clearfix colelem" id="u3818-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-       <h1>Why we exist</h1>
-      </div>
-      <div class="Secondary-Paragraph-Style clearfix colelem" id="u3821-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-       <p>Mighty Mainframe is a community of gamers banded together to participate in tournaments and other events for many different games. Starting off as &quot;Community Craft&quot; we grew from a server with a few people hosting Minecraft UHC's to a super organized community 100 people strong.</p>
-      </div>
+    <div class="verticalspacer shared_content" data-offset-top="4835" data-content-above-spacer="4835" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="page_1_content"></div>
+    <div class="clearfix grpelem" id="pu4147"><!-- group -->
+     <div class="browser_width grpelem shared_content" id="u4147-bw" data-content-guid="u4147-bw_content">
+      <div class="gradient" id="u4147"><!-- simple frame --></div>
      </div>
-     <div class="clip_frame grpelem" id="u3843"><!-- image -->
-      <img class="block" id="u3843_img" src="images/colored%20logo.png?crc=3786979400" alt="" data-heightwidthratio="1.36986301369863" data-image-width="219" data-image-height="300"/>
-     </div>
-    </div>
-    <div class="Header-Style clearfix colelem" id="u4078-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-     <h1>Aiming for the future</h1>
-    </div>
-    <div class="Secondary-Paragraph-Style clearfix colelem" id="u4075-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-     <p>In the future we hope to provide access to simple fun tournaments of many different games to a large audience. The more people we can provide to, the more events we can host!</p>
-    </div>
-    <div class="clearfix colelem" id="pu3833"><!-- group -->
-     <div class="browser_width grpelem" id="u3833-bw">
-      <div id="u3833"><!-- simple frame --></div>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u3827-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>Meet the team</h1>
-     </div>
-     <div class="Secondary-Heading clearfix grpelem" id="u3953-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h2>Acg1000</h2>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u3962-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Acg is the founder of Mighty Mainframe, known as Titancraft UHC back in the day. Now-a-days he still oversees all things going on along with working on this website and scheduling events.</p>
-     </div>
-     <div class="shadow rounded-corners clearfix grpelem" id="u4002"><!-- group -->
-      <div class="clip_frame grpelem" id="u3965"><!-- image -->
-       <img class="block" id="u3965_img" src="images/acg%20(profile%20pic%203).png?crc=193937597" alt="" data-heightwidthratio="1.1347150259067358" data-image-width="193" data-image-height="219"/>
-      </div>
-     </div>
-     <div class="Secondary-Heading clearfix grpelem" id="u4005-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h2>Sir_Oswyn</h2>
-     </div>
-     <div class="Secondary-Heading clearfix grpelem" id="u4758-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h2>Dragon</h2>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4006-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Sir_Oswyn is one of the great gaming aficionado of this world! He loves long walks on the beach and special gaming events like UHC's, tournaments etc! Oswyn has always love community events and is excited to see all the fun times that we'll have with Mighty Mainframe!</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4761-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>ok soon™</p>
-     </div>
-     <div class="shadow rounded-corners clearfix grpelem" id="u4007"><!-- group -->
-      <div class="clip_frame grpelem" id="u4062"><!-- image -->
-       <img class="block" id="u4062_img" src="images/image_2.png?crc=3761925914" alt="" data-heightwidthratio="1" data-image-width="244" data-image-height="244"/>
-      </div>
-     </div>
-     <div class="shadow rounded-corners clearfix grpelem" id="u4693"><!-- group -->
-      <div class="clip_frame grpelem" id="u4873"><!-- image -->
-       <img class="block" id="u4873_img" src="images/delltalogo.png?crc=273541567" alt="" data-heightwidthratio="1" data-image-width="215" data-image-height="215"/>
-      </div>
-     </div>
-     <div class="Secondary-Heading clearfix grpelem" id="u4037-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h2>LordOfTheUndead</h2>
-     </div>
-     <div class="Secondary-Heading clearfix grpelem" id="u4262-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h2>MonkeyDKS</h2>
-     </div>
-     <div class="Secondary-Heading clearfix grpelem" id="u4781-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h2>Nobbienuts</h2>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4038-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>LordOfTheUndead is Mighty Mainframe's lead dev and has been around since the start. He is the wonderful wizard behind anything that requires any code. He also serves as one of the managers for the server, helping out wherever it is needed.</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4259-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>MonkeyDKS is a gamer from the Boston area.&nbsp; On staff at a local TV studio, he works with the local High School TV Club to film sporting events, concerts, theatre shows and more.&nbsp; Monkey joined Mighty Mainframe in 2017 and helps run the Minecraft UHC's and sometimes runs backup for Rocket League as well!</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4778-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Nobbie is just dunk all the time.</p>
-     </div>
-     <div class="shadow rounded-corners clearfix grpelem" id="u4039"><!-- group -->
-      <div class="rounded-corners clip_frame grpelem" id="u4275"><!-- image -->
-       <img class="block" id="u4275_img" src="images/lordy.jpg?crc=4249678727" alt="" data-heightwidthratio="1" data-image-width="191" data-image-height="191"/>
-      </div>
-     </div>
-     <div class="shadow rounded-corners clearfix grpelem" id="u4250"><!-- group -->
-      <div class="clip_frame grpelem" id="u4285"><!-- image -->
-       <img class="block" id="u4285_img" src="images/monkeydks_title_screen_head.png?crc=507918197" alt="" data-heightwidthratio="0.5623003194888179" data-image-width="313" data-image-height="176"/>
-      </div>
-     </div>
-     <div class="shadow rounded-corners clearfix grpelem" id="u4696"><!-- group -->
-      <div class="rounded-corners clip_frame grpelem" id="u4805"><!-- image -->
-       <img class="block" id="u4805_img" src="images/nobbys_nuts.jpg?crc=72606305" alt="" data-heightwidthratio="1.0052631578947369" data-image-width="190" data-image-height="191"/>
-      </div>
-     </div>
-     <a class="nonblock nontext clip_frame grpelem" id="u4563" href="https://twitter.com/Sir_Oswyn" target="_blank"><!-- image --><img class="block" id="u4563_img" src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4764" href="https://twitter.com/delltadragon" target="_blank"><!-- image --><img class="block" id="u4764_img" src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4573" href="https://twitter.com/acg1000_" target="_blank"><!-- image --><img class="block" id="u4573_img" src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4580" href="http://twitter.com/MonkeyDKS" target="_blank"><!-- image --><img class="block" id="u4580_img" src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4784" href="https://twitter.com/Nobblenuts" target="_blank"><!-- image --><img class="block" id="u4784_img" src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4587" href="https://twitter.com/_UndeadGaming_" target="_blank"><!-- image --><img class="block" id="u4587_img" src="images/twitter.png?crc=489507195" alt="" data-heightwidthratio="1" data-image-width="58" data-image-height="58"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4594" href="https://mixer.com/acg1000" target="_blank"><!-- image --><img class="block" id="u4594_img" src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4651" href="https://mixer.com/sir_oswyn" target="_blank"><!-- image --><img class="block" id="u4651_img" src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4665" href="https://mixer.com/monkeydks" target="_blank"><!-- image --><img class="block" id="u4665_img" src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4686" href="https://mixer.com/lordoftheundead" target="_blank"><!-- image --><img class="block" id="u4686_img" src="images/mixermerge_black.png?crc=202979037" alt="" data-heightwidthratio="0.8888888888888888" data-image-width="54" data-image-height="48"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4641" href="http://youtube.com/acg1000" target="_blank"><!-- image --><img class="block" id="u4641_img" src="images/asset%201.png?crc=105149088" alt="" data-heightwidthratio="0.7058823529411765" data-image-width="68" data-image-height="48"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4672" href="https://www.youtube.com/channel/UC07TV25Rd7jWnjjqUt3DFYQ" target="_blank"><!-- image --><img class="block" id="u4672_img" src="images/asset%201.png?crc=105149088" alt="" data-heightwidthratio="0.7058823529411765" data-image-width="68" data-image-height="48"/></a>
+     <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u4148" href="https://discord.gg/HkW8WAu" target="_blank"><!-- image --><img class="block temp_no_img_src" id="u4148_img" data-orig-src="images/logo%20white158x158.png?crc=4172669922" alt="" title="Join our Discord server!" data-heightwidthratio="1" data-image-width="158" data-image-height="158" src="images/blank.gif?crc=4208392903"/></a>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="2415" data-content-above-spacer="2415" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="pu4147"><!-- group -->
-    <div class="browser_width grpelem" id="u4147-bw">
-     <div class="gradient" id="u4147"><!-- simple frame --></div>
-    </div>
-    <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u4148" href="https://discord.gg/HkW8WAu" target="_blank"><!-- image --><img class="block" id="u4148_img" src="images/logo%20white.png?crc=239744689" alt="" title="Join our Discord server!" data-heightwidthratio="1" data-image-width="158" data-image-height="158"/></a>
-    <img class="grpelem" id="u4150-4" alt="Mighty Mainframe" src="images/u4150-4.png?crc=4035264686" data-image-width="577"/><!-- rasterized frame -->
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4160_states-r.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4161_states-r.png?crc=224875154" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4162_states-r.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
-  <div class="preload_images">
-   <img class="preload" src="images/u4160_states-r.png?crc=3835715611" alt=""/>
-   <img class="preload" src="images/u4161_states-r.png?crc=224875154" alt=""/>
-   <img class="preload" src="images/u4162_states-r.png?crc=4141604423" alt=""/>
+  <div class="breakpoint" id="bp_1529" data-min-width="1155" data-max-width="1529"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pppu4160"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppu4160"><!-- group -->
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4160_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4161_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u4825_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4162_content"><!-- placeholder node --></span>
+      <a class="nonblock nontext MuseLinkActive grpelem temp_no_id" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u4163-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="About" width="117" height="42" data-orig-src="images/u4163-4-a2.png?crc=266738960" data-orig-id="u4163-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="ppu3818-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4078-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4075-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u3827-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu8906"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8906_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem" id="pu3953-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u3953-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u3962-4_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem" id="pu4037-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4037-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4038-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8912_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu8918"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8918_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem" id="pu4005-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4005-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4006-4_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem" id="pu4262-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4262-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4259-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="shadow rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4250_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu8924"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8924_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem" id="pu4758-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4758-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4761-4_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem" id="pu4781-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4781-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4778-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="shadow rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4696_content"><!-- placeholder node --></span>
+     </div>
+     <span class="colelem placeholder" data-placeholder-for="u8930_content"><!-- placeholder node --></span>
+    </div>
+    <span class="verticalspacer placeholder" data-placeholder-for="page_1_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu4147"><!-- group -->
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u4147-bw_content"><!-- placeholder node --></span>
+     <a class="nonblock nontext rounded-corners clip_frame grpelem temp_no_id" href="https://discord.gg/HkW8WAu" target="_blank" data-orig-id="u4148"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20white126x126.png?crc=3874491973" alt="" title="Join our Discord server!" data-heightwidthratio="1" data-image-width="126" data-image-height="126" data-orig-id="u4148_img" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4160_states-r2.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4161_states-r2.png?crc=224875154" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4162_states-r2.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_1154" data-min-width="481" data-max-width="1154"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pppu4160"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="ppu4160"><!-- group -->
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4160_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4161_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u4825_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4162_content"><!-- placeholder node --></span>
+      <a class="nonblock nontext MuseLinkActive grpelem temp_no_id" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u4163-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="About" width="117" height="42" data-orig-src="images/u4163-4-a3.png?crc=266738960" data-orig-id="u4163-4_img" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="ppu3818-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4078-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4075-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u3827-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu8906"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8906_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pu3953-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u3953-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u3962-4_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="ppu4037-4"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pu4037-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4037-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4038-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8912_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu8918"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8918_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pu4005-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4005-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4006-4_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="ppu4262-4"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pu4262-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4262-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4259-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="shadow rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4250_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu8924"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u8924_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pu4758-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4758-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4761-4_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="ppu4781-4"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="pu4781-4"><!-- column -->
+       <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4781-4_content"><!-- placeholder node --></span>
+       <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4778-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="shadow rounded-corners clearfix grpelem placeholder" data-placeholder-for="u4696_content"><!-- placeholder node --></span>
+     </div>
+     <span class="colelem placeholder" data-placeholder-for="u8930_content"><!-- placeholder node --></span>
+    </div>
+    <span class="verticalspacer placeholder" data-placeholder-for="page_1_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu4147"><!-- group -->
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u4147-bw_content"><!-- placeholder node --></span>
+     <a class="nonblock nontext rounded-corners clip_frame grpelem temp_no_id" href="https://discord.gg/HkW8WAu" target="_blank" data-orig-id="u4148"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20white95x95.png?crc=3887109539" alt="" title="Join our Discord server!" data-heightwidthratio="1" data-image-width="95" data-image-height="95" data-orig-id="u4148_img" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4160_states-r3.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4161_states-r3.png?crc=224875154" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4162_states-r3.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppu9043"><!-- column -->
+     <div class="clearfix colelem" id="pu9043"><!-- group -->
+      <div class="clearfix grpelem" id="u9043"><!-- column -->
+       <div class="colelem" id="u9045"><!-- simple frame --></div>
+       <div class="colelem" id="u9046"><!-- simple frame --></div>
+       <div class="colelem" id="u9044"><!-- simple frame --></div>
+      </div>
+      <ul class="AccordionWidget clearfix grpelem" id="accordionu8952" data-visibility="changed" style="visibility:hidden"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem" id="u8953"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u8959-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>&nbsp;</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u8954"><!-- column --><a class="nonblock nontext colelem" id="u8955" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- state-based BG images --><img id="u8955_states" alt="Welcome" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext colelem" id="u8957" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- state-based BG images --><img id="u8957_states" alt="Events" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext colelem" id="u8956" href="games.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- state-based BG images --><img id="u8956_states" alt="Games" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext MuseLinkActive colelem" id="u8958-4" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- rasterized frame --><img class="temp_no_img_src" id="u8958-4_img" alt="About" width="179" height="42" data-orig-src="images/u8958-4-a.png?crc=81237571" src="images/blank.gif?crc=4208392903"/></a></div></li>
+      </ul>
+     </div>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u3818-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u3821-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4078-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4075-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u3827-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u8906_content"><!-- placeholder node --></span>
+     <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u3953-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u3962-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u8912_content"><!-- placeholder node --></span>
+     <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4037-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4038-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u8918_content"><!-- placeholder node --></span>
+     <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4005-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4006-4_content"><!-- placeholder node --></span>
+     <span class="shadow rounded-corners clearfix colelem placeholder" data-placeholder-for="u4250_content"><!-- placeholder node --></span>
+     <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4262-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4259-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u8924_content"><!-- placeholder node --></span>
+     <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4758-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4761-4_content"><!-- placeholder node --></span>
+     <span class="shadow rounded-corners clearfix colelem placeholder" data-placeholder-for="u4696_content"><!-- placeholder node --></span>
+     <span class="Secondary-Heading clearfix colelem placeholder" data-placeholder-for="u4781-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4778-4_content"><!-- placeholder node --></span>
+     <span class="colelem placeholder" data-placeholder-for="u8930_content"><!-- placeholder node --></span>
+    </div>
+    <span class="verticalspacer placeholder" data-placeholder-for="page_1_content"><!-- placeholder node --></span>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu4147"><!-- group -->
+     <span class="browser_width grpelem placeholder" data-placeholder-for="u4147-bw_content"><!-- placeholder node --></span>
+     <a class="nonblock nontext rounded-corners clip_frame grpelem temp_no_id" href="https://discord.gg/HkW8WAu" target="_blank" data-orig-id="u4148"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20white162x162.png?crc=4134301769" alt="" title="Join our Discord server!" data-heightwidthratio="0.9938271604938271" data-image-width="162" data-image-height="161" data-orig-id="u4148_img" src="images/blank.gif?crc=4208392903"/></a>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u8955_states-r.png?crc=4124618395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u8957_states-r.png?crc=3785514930" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u8956_states-r.png?crc=269725439" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -173,15 +371,16 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpdisclosure","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#accordionu8952', ['#bp_480'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu8952 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
