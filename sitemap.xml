@@ -9,18 +9,12 @@
       <image:loc>http://mightymainframe.com/images/dark.jpg</image:loc>
     </image:image>
     <image:image>
-<<<<<<< HEAD
       <image:loc>http://mightymainframe.com/images/discord-logo-white.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/dark1304x734.jpg</image:loc>
     </image:image>
     <image:image>
-=======
-      <image:loc>http://mightymainframe.com/images/dark1304x734.jpg</image:loc>
-    </image:image>
-    <image:image>
->>>>>>> master
       <image:loc>http://mightymainframe.com/images/dark935x526.jpg</image:loc>
     </image:image>
     <image:image>
@@ -33,10 +27,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/rocketleague-logo198x198.png</image:loc>
@@ -48,12 +42,9 @@
       <image:loc>http://mightymainframe.com/images/pubg%20helmit190x172.png</image:loc>
     </image:image>
     <image:image>
-<<<<<<< HEAD
       <image:loc>http://mightymainframe.com/images/logo%20white158x158.png</image:loc>
     </image:image>
     <image:image>
-=======
->>>>>>> master
       <image:loc>http://mightymainframe.com/images/pubg%20helmit152x137.png</image:loc>
     </image:image>
     <image:image>
@@ -63,7 +54,6 @@
       <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg137x137.png</image:loc>
     </image:image>
     <image:image>
-<<<<<<< HEAD
       <image:loc>http://mightymainframe.com/images/logo%20white126x126.png</image:loc>
     </image:image>
     <image:image>
@@ -80,41 +70,14 @@
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/rocketleague-logo164x163.png</image:loc>
-=======
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo179x179.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit160x145.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg142x142.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/rocketleague-logo164x163.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/pubg%20helmit165x149.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white158x158.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white126x126.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white95x95.png</image:loc>
->>>>>>> master
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/overwatch_circle_logosvg149x148.png</image:loc>
     </image:image>
     <image:image>
-<<<<<<< HEAD
       <image:loc>http://mightymainframe.com/images/pubg%20helmit165x149.png</image:loc>
     </image:image>
     <image:image>
-=======
->>>>>>> master
       <image:loc>http://mightymainframe.com/images/logo%20white146x146.png</image:loc>
     </image:image>
   </url>
@@ -124,19 +87,25 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://mightymainframe.com/images/colored%20logo.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/acg%20(profile%20pic%203).png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://mightymainframe.com/images/monkeydks_title_screen_head.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/nobbys_nuts.jpg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://mightymainframe.com/images/image_2.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/lordy.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/monkeydks_title_screen_head.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/twitter.png</image:loc>
@@ -146,12 +115,6 @@
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/asset%201.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/nobbys_nuts.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/delltalogo.png</image:loc>

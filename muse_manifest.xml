@@ -1,26 +1,14 @@
-<<<<<<< HEAD
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519608851879">
-=======
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519608309111">
->>>>>>> master
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519609073605">
   <folder name="css">
     <file name="site_global.css" crc="3906561180"/>
     <file name="upcoming-events.css" crc="67231620" ref="upcoming-events"/>
-    <file name="about.css" crc="126079700" ref="about"/>
-    <file name="games.css" crc="229800286" ref="games"/>
-<<<<<<< HEAD
+    <file name="nomq_upcoming-events.css" crc="4212485855" ref="upcoming-events"/>
     <file name="index.css" crc="3893698572" ref="index"/>
     <file name="nomq_index.css" crc="123308868" ref="index"/>
-    <file name="nomq_upcoming-events.css" crc="4212485855" ref="upcoming-events"/>
+    <file name="games.css" crc="229800286" ref="games"/>
     <file name="nomq_games.css" crc="4235050206" ref="games"/>
+    <file name="about.css" crc="126079700" ref="about"/>
     <file name="nomq_about.css" crc="4226662364" ref="about"/>
-=======
-    <file name="index.css" crc="3901091043" ref="index"/>
-    <file name="nomq_games.css" crc="4235050206" ref="games"/>
-    <file name="nomq_about.css" crc="4226662364" ref="about"/>
-    <file name="nomq_upcoming-events.css" crc="4212485855" ref="upcoming-events"/>
-    <file name="nomq_index.css" crc="4212501715" ref="index"/>
->>>>>>> master
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games:about:upcoming-events"/>
@@ -28,326 +16,30 @@
     <file name="whatinput.js" crc="86476730" ref="index:games:about:upcoming-events"/>
     <file name="museconfig.js" crc="4153641093" ref="index:games:about:upcoming-events"/>
     <file name="jquery.watch.js" crc="99325471" ref="index:games:about:upcoming-events"/>
-<<<<<<< HEAD
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:games:about:upcoming-events"/>
-    <file name="require.js" crc="4157109226" ref="index:games:about:upcoming-events"/>
     <file name="webpro.js" crc="242022427" ref="index:games:about:upcoming-events"/>
     <file name="musewpdisclosure.js" crc="119288625" ref="index:games:about:upcoming-events"/>
-=======
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="games:about:upcoming-events:index"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:games:about:upcoming-events"/>
     <file name="require.js" crc="4157109226" ref="index:games:about:upcoming-events"/>
-    <file name="webpro.js" crc="242022427" ref="games:about:upcoming-events:index"/>
-    <file name="musewpdisclosure.js" crc="119288625" ref="games:about:upcoming-events:index"/>
->>>>>>> master
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="88503871" ref="index:games"/>
+    <file name="favicon.ico" crc="88503871" ref="index"/>
     <file name="dark.jpg" crc="178646584" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="home-v2" alt=""/>
-    </file>
-    <file name="u1744-4.png" crc="4085372585" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:about:games:upcoming-events"/>
-<<<<<<< HEAD
-    <file name="u1744-42.png" crc="4085320734" ref="index"/>
-=======
->>>>>>> master
-    <file name="u4160_states.png" crc="4127242130" ref="about"/>
-    <file name="u4160_states-r.png" crc="3835715611" ref="about"/>
-    <file name="u4161_states.png" crc="385806729" ref="about"/>
-    <file name="u4161_states-r.png" crc="224875154" ref="about"/>
-    <file name="u4162_states.png" crc="483549822" ref="about"/>
-    <file name="u4162_states-r.png" crc="4141604423" ref="about"/>
-    <file name="u4163-4-a.png" crc="266738960" ref="about"/>
-    <file name="colored logo.png" crc="3786979400" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="acg (profile pic 3).png" crc="193937597" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="image_2.png" crc="3761925914" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="lordy.jpg" crc="4249678727" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="grass.png" crc="436184691" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-<<<<<<< HEAD
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
-=======
->>>>>>> master
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
-      <caption webpage="home-v2" alt=""/>
-    </file>
-    <file name="monkeydks_title_screen_head.png" crc="507918197" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="twitter.png" crc="489507195" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="mixermerge_black.png" crc="202979037" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="asset 1.png" crc="105149088" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="nobbys_nuts.jpg" crc="72606305" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="u4837_states.png" crc="338043493" ref="games"/>
-    <file name="u4837_states-r.png" crc="4124618395" ref="games"/>
-    <file name="u4838_states.png" crc="153804636" ref="games"/>
-    <file name="u4838_states-r.png" crc="3785514930" ref="games"/>
-<<<<<<< HEAD
-    <file name="discord-logo-black.png" crc="216633692" seo="true" ref="games:about:upcoming-events">
-=======
-    <file name="discord-logo-black.png" crc="216633692" seo="true" ref="about:upcoming-events:games">
->>>>>>> master
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="u4839-4-a.png" crc="335038888" ref="games"/>
-    <file name="u4840_states.png" crc="81237571" ref="games"/>
-    <file name="u4840_states-r.png" crc="4147865397" ref="games"/>
-    <file name="delltalogo.png" crc="273541567" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="u4856_states.png" crc="4127242130" ref="upcoming-events"/>
-    <file name="u4856_states-r.png" crc="3835715611" ref="upcoming-events"/>
-    <file name="u4857-4-a.png" crc="385806729" ref="upcoming-events"/>
-    <file name="u4858_states.png" crc="483549822" ref="upcoming-events"/>
-    <file name="u4858_states-r.png" crc="4141604423" ref="upcoming-events"/>
-    <file name="u4859_states.png" crc="266738960" ref="upcoming-events"/>
-    <file name="u4859_states-r.png" crc="3956063395" ref="upcoming-events"/>
-<<<<<<< HEAD
-    <file name="discord-logo-white.png" crc="219161000" seo="true" ref="index">
-=======
-    <file name="rocketleague-logo198x198.png" crc="3803248172" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="overwatch_circle_logosvg172x172.png" crc="354551586" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="pubg helmit190x172.png" crc="85345794" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="u5508-4.png" crc="3798288047" ref="games"/>
-    <file name="pubg helmit152x137.png" crc="4268065601" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="rocketleague-logo158x158.png" crc="369759400" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="overwatch_circle_logosvg137x137.png" crc="414063167" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="u5508-42.png" crc="196962753" ref="games"/>
-    <file name="rocketleague-logo179x179.png" crc="123120994" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="pubg helmit160x145.png" crc="116602710" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="overwatch_circle_logosvg142x142.png" crc="135048205" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="u5508-43.png" crc="3905586613" ref="games"/>
-    <file name="rocketleague-logo164x163.png" crc="4067064436" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="pubg helmit165x149.png" crc="4063100243" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="logo white158x158.png" crc="4172669922" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="logo white126x126.png" crc="3874491973" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="logo white95x95.png" crc="3887109539" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="overwatch_circle_logosvg149x148.png" crc="3759729435" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="logo white146x146.png" crc="3975495313" seo="true" ref="games">
-      <caption webpage="games" alt=""/>
-    </file>
-    <file name="u8199_states.png" crc="4127242130" ref="games"/>
-    <file name="u8199_states-r.png" crc="3835715611" ref="games"/>
-    <file name="u8200_states.png" crc="385806729" ref="games"/>
-    <file name="u8200_states-r.png" crc="224875154" ref="games"/>
-    <file name="u8201-4-a.png" crc="483549822" ref="games"/>
-    <file name="u8202_states.png" crc="266738960" ref="games"/>
-    <file name="u8202_states-r.png" crc="3956063395" ref="games"/>
-    <file name="u8199_states2.png" crc="4127242130" ref="games"/>
-    <file name="u8199_states-r2.png" crc="3835715611" ref="games"/>
-    <file name="u8200_states2.png" crc="385806729" ref="games"/>
-    <file name="u8200_states-r2.png" crc="224875154" ref="games"/>
-    <file name="u8201-4-a2.png" crc="483549822" ref="games"/>
-    <file name="u8202_states2.png" crc="266738960" ref="games"/>
-    <file name="u8202_states-r2.png" crc="3956063395" ref="games"/>
-    <file name="u8199_states3.png" crc="4127242130" ref="games"/>
-    <file name="u8199_states-r3.png" crc="3835715611" ref="games"/>
-    <file name="u8200_states3.png" crc="385806729" ref="games"/>
-    <file name="u8200_states-r3.png" crc="224875154" ref="games"/>
-    <file name="u8201-4-a3.png" crc="483549822" ref="games"/>
-    <file name="u8202_states3.png" crc="266738960" ref="games"/>
-    <file name="u8202_states-r3.png" crc="3956063395" ref="games"/>
-    <file name="u4160_states2.png" crc="4127242130" ref="about"/>
-    <file name="u4160_states-r2.png" crc="3835715611" ref="about"/>
-    <file name="u4161_states2.png" crc="385806729" ref="about"/>
-    <file name="u4161_states-r2.png" crc="224875154" ref="about"/>
-    <file name="u4162_states2.png" crc="483549822" ref="about"/>
-    <file name="u4162_states-r2.png" crc="4141604423" ref="about"/>
-    <file name="u4163-4-a2.png" crc="266738960" ref="about"/>
-    <file name="u4160_states3.png" crc="4127242130" ref="about"/>
-    <file name="u4160_states-r3.png" crc="3835715611" ref="about"/>
-    <file name="u4161_states3.png" crc="385806729" ref="about"/>
-    <file name="u4161_states-r3.png" crc="224875154" ref="about"/>
-    <file name="u4162_states3.png" crc="483549822" ref="about"/>
-    <file name="u4162_states-r3.png" crc="4141604423" ref="about"/>
-    <file name="u4163-4-a3.png" crc="266738960" ref="about"/>
-    <file name="u8955_states.png" crc="338043493" ref="about"/>
-    <file name="u8955_states-r.png" crc="4124618395" ref="about"/>
-    <file name="u8957_states.png" crc="153804636" ref="about"/>
-    <file name="u8957_states-r.png" crc="3785514930" ref="about"/>
-    <file name="u8956_states.png" crc="335038888" ref="about"/>
-    <file name="u8956_states-r.png" crc="269725439" ref="about"/>
-    <file name="u8958-4-a.png" crc="81237571" ref="about"/>
-    <file name="logo white162x162.png" crc="4134301769" seo="true" ref="about">
-      <caption webpage="about" alt=""/>
-    </file>
-    <file name="u4856_states2.png" crc="4127242130" ref="upcoming-events"/>
-    <file name="u4856_states-r2.png" crc="3835715611" ref="upcoming-events"/>
-    <file name="u4857-4-a2.png" crc="385806729" ref="upcoming-events"/>
-    <file name="u4858_states2.png" crc="483549822" ref="upcoming-events"/>
-    <file name="u4858_states-r2.png" crc="4141604423" ref="upcoming-events"/>
-    <file name="u4859_states2.png" crc="266738960" ref="upcoming-events"/>
-    <file name="u4859_states-r2.png" crc="3956063395" ref="upcoming-events"/>
-    <file name="u9593_states.png" crc="338043493" ref="upcoming-events"/>
-    <file name="u9593_states-r.png" crc="4124618395" ref="upcoming-events"/>
-    <file name="u9594-4-a.png" crc="153804636" ref="upcoming-events"/>
-    <file name="u9596_states.png" crc="335038888" ref="upcoming-events"/>
-    <file name="u9596_states-r.png" crc="269725439" ref="upcoming-events"/>
-    <file name="u9595_states.png" crc="81237571" ref="upcoming-events"/>
-    <file name="u9595_states-r.png" crc="4147865397" ref="upcoming-events"/>
-    <file name="logo white137x137.png" crc="331510004" seo="true" ref="upcoming-events">
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-      <caption webpage="upcoming-events" alt=""/>
-    </file>
-    <file name="u4856_states3.png" crc="4127242130" ref="upcoming-events"/>
-    <file name="u4856_states-r3.png" crc="3835715611" ref="upcoming-events"/>
-    <file name="u4857-4-a3.png" crc="385806729" ref="upcoming-events"/>
-    <file name="u4858_states3.png" crc="483549822" ref="upcoming-events"/>
-    <file name="u4858_states-r3.png" crc="4141604423" ref="upcoming-events"/>
-    <file name="u4859_states3.png" crc="266738960" ref="upcoming-events"/>
-    <file name="u4859_states-r3.png" crc="3956063395" ref="upcoming-events"/>
-    <file name="u9593_states2.png" crc="338043493" ref="upcoming-events"/>
-    <file name="u9593_states-r2.png" crc="4124618395" ref="upcoming-events"/>
-    <file name="u9594-4-a2.png" crc="153804636" ref="upcoming-events"/>
-    <file name="u9596_states2.png" crc="335038888" ref="upcoming-events"/>
-    <file name="u9596_states-r2.png" crc="269725439" ref="upcoming-events"/>
-    <file name="u9595_states2.png" crc="81237571" ref="upcoming-events"/>
-    <file name="u9595_states-r2.png" crc="4147865397" ref="upcoming-events"/>
-    <file name="u4856_states4.png" crc="4127242130" ref="upcoming-events"/>
-    <file name="u4856_states-r4.png" crc="3835715611" ref="upcoming-events"/>
-    <file name="u4857-4-a4.png" crc="385806729" ref="upcoming-events"/>
-    <file name="u4858_states4.png" crc="483549822" ref="upcoming-events"/>
-    <file name="u4858_states-r4.png" crc="4141604423" ref="upcoming-events"/>
-    <file name="u4859_states4.png" crc="266738960" ref="upcoming-events"/>
-    <file name="u4859_states-r4.png" crc="3956063395" ref="upcoming-events"/>
-    <file name="u9593_states3.png" crc="338043493" ref="upcoming-events"/>
-    <file name="u9593_states-r3.png" crc="4124618395" ref="upcoming-events"/>
-    <file name="u9594-4-a3.png" crc="153804636" ref="upcoming-events"/>
-    <file name="u9596_states3.png" crc="335038888" ref="upcoming-events"/>
-    <file name="u9596_states-r3.png" crc="269725439" ref="upcoming-events"/>
-    <file name="u9595_states3.png" crc="81237571" ref="upcoming-events"/>
-    <file name="u9595_states-r3.png" crc="4147865397" ref="upcoming-events"/>
-    <file name="u9593_states4.png" crc="338043493" ref="upcoming-events"/>
-    <file name="u9593_states-r4.png" crc="4124618395" ref="upcoming-events"/>
-    <file name="u9594-4-a4.png" crc="153804636" ref="upcoming-events"/>
-    <file name="u9596_states4.png" crc="335038888" ref="upcoming-events"/>
-    <file name="u9596_states-r4.png" crc="269725439" ref="upcoming-events"/>
-    <file name="u9595_states4.png" crc="81237571" ref="upcoming-events"/>
-    <file name="u9595_states-r4.png" crc="4147865397" ref="upcoming-events"/>
-    <file name="dark1304x734.jpg" crc="3962466142" seo="true" ref="index">
->>>>>>> master
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u9956-4-a.png" crc="523789979" ref="index"/>
-    <file name="u9957_states.png" crc="298668432" ref="index"/>
-    <file name="u9957_states-r.png" crc="508909047" ref="index"/>
-    <file name="u9959_states.png" crc="117695760" ref="index"/>
-    <file name="u9959_states-r.png" crc="138633935" ref="index"/>
-    <file name="u9958_states.png" crc="3858678718" ref="index"/>
-    <file name="u9958_states-r.png" crc="436866312" ref="index"/>
-    <file name="u1744-42.png" crc="4085320734" ref="index"/>
-    <file name="dark935x526.jpg" crc="247244579" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u9956-4-a2.png" crc="523789979" ref="index"/>
-    <file name="u9957_states2.png" crc="298668432" ref="index"/>
-    <file name="u9957_states-r2.png" crc="508909047" ref="index"/>
-    <file name="u9959_states2.png" crc="117695760" ref="index"/>
-    <file name="u9959_states-r2.png" crc="138633935" ref="index"/>
-    <file name="u9958_states2.png" crc="3858678718" ref="index"/>
-    <file name="u9958_states-r2.png" crc="436866312" ref="index"/>
-    <file name="u1744-43.png" crc="3905244454" ref="index"/>
-    <file name="dark480x270.jpg" crc="430449131" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="u10094-4-a.png" crc="86680391" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:games:about:upcoming-events"/>
     <file name="u10095_states.png" crc="4023739077" ref="index"/>
     <file name="u10095_states-r.png" crc="285219040" ref="index"/>
     <file name="u10096_states.png" crc="3805657119" ref="index"/>
     <file name="u10096_states-r.png" crc="442981313" ref="index"/>
     <file name="u10097_states.png" crc="472045099" ref="index"/>
     <file name="u10097_states-r.png" crc="510980917" ref="index"/>
+    <file name="discord-logo-white.png" crc="219161000" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u1744-4.png" crc="4085372585" ref="index"/>
     <file name="dark1304x734.jpg" crc="3962466142" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -358,6 +50,7 @@
     <file name="u10096_states-r2.png" crc="442981313" ref="index"/>
     <file name="u10097_states2.png" crc="472045099" ref="index"/>
     <file name="u10097_states-r2.png" crc="510980917" ref="index"/>
+    <file name="u1744-42.png" crc="4085320734" ref="index"/>
     <file name="dark935x526.jpg" crc="247244579" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -384,9 +77,27 @@
     <file name="u8199_states-r.png" crc="3835715611" ref="games"/>
     <file name="u8200_states.png" crc="385806729" ref="games"/>
     <file name="u8200_states-r.png" crc="224875154" ref="games"/>
+    <file name="discord-logo-black.png" crc="216633692" seo="true" ref="games:about:upcoming-events">
+      <caption webpage="upcoming-events" alt=""/>
+      <caption webpage="upcoming-events" alt=""/>
+      <caption webpage="upcoming-events" alt=""/>
+      <caption webpage="upcoming-events" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
+    </file>
     <file name="u8201-4-a.png" crc="483549822" ref="games"/>
     <file name="u8202_states.png" crc="266738960" ref="games"/>
     <file name="u8202_states-r.png" crc="3956063395" ref="games"/>
+    <file name="grass.png" crc="436184691" seo="true" ref="games">
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
+    </file>
     <file name="rocketleague-logo198x198.png" crc="3803248172" seo="true" ref="games">
       <caption webpage="games" alt=""/>
     </file>
@@ -440,6 +151,13 @@
     <file name="logo white95x95.png" crc="3887109539" seo="true" ref="games">
       <caption webpage="games" alt=""/>
     </file>
+    <file name="u4837_states.png" crc="338043493" ref="games"/>
+    <file name="u4837_states-r.png" crc="4124618395" ref="games"/>
+    <file name="u4838_states.png" crc="153804636" ref="games"/>
+    <file name="u4838_states-r.png" crc="3785514930" ref="games"/>
+    <file name="u4839-4-a.png" crc="335038888" ref="games"/>
+    <file name="u4840_states.png" crc="81237571" ref="games"/>
+    <file name="u4840_states-r.png" crc="4147865397" ref="games"/>
     <file name="rocketleague-logo164x163.png" crc="4067064436" seo="true" ref="games">
       <caption webpage="games" alt=""/>
     </file>
@@ -451,6 +169,72 @@
     </file>
     <file name="logo white146x146.png" crc="3975495313" seo="true" ref="games">
       <caption webpage="games" alt=""/>
+    </file>
+    <file name="u4160_states.png" crc="4127242130" ref="about"/>
+    <file name="u4160_states-r.png" crc="3835715611" ref="about"/>
+    <file name="u4161_states.png" crc="385806729" ref="about"/>
+    <file name="u4161_states-r.png" crc="224875154" ref="about"/>
+    <file name="u4162_states.png" crc="483549822" ref="about"/>
+    <file name="u4162_states-r.png" crc="4141604423" ref="about"/>
+    <file name="u4163-4-a.png" crc="266738960" ref="about"/>
+    <file name="colored logo.png" crc="3786979400" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="acg (profile pic 3).png" crc="193937597" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="monkeydks_title_screen_head.png" crc="507918197" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="nobbys_nuts.jpg" crc="72606305" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="image_2.png" crc="3761925914" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="lordy.jpg" crc="4249678727" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="twitter.png" crc="489507195" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="mixermerge_black.png" crc="202979037" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="asset 1.png" crc="105149088" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="delltalogo.png" crc="273541567" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
     </file>
     <file name="u4160_states2.png" crc="4127242130" ref="about"/>
     <file name="u4160_states-r2.png" crc="3835715611" ref="about"/>
@@ -476,6 +260,13 @@
     <file name="logo white162x162.png" crc="4134301769" seo="true" ref="about">
       <caption webpage="about" alt=""/>
     </file>
+    <file name="u4856_states.png" crc="4127242130" ref="upcoming-events"/>
+    <file name="u4856_states-r.png" crc="3835715611" ref="upcoming-events"/>
+    <file name="u4857-4-a.png" crc="385806729" ref="upcoming-events"/>
+    <file name="u4858_states.png" crc="483549822" ref="upcoming-events"/>
+    <file name="u4858_states-r.png" crc="4141604423" ref="upcoming-events"/>
+    <file name="u4859_states.png" crc="266738960" ref="upcoming-events"/>
+    <file name="u4859_states-r.png" crc="3956063395" ref="upcoming-events"/>
     <file name="u4856_states2.png" crc="4127242130" ref="upcoming-events"/>
     <file name="u4856_states-r2.png" crc="3835715611" ref="upcoming-events"/>
     <file name="u4857-4-a2.png" crc="385806729" ref="upcoming-events"/>
@@ -496,7 +287,6 @@
       <caption webpage="upcoming-events" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
     </file>
-<<<<<<< HEAD
     <file name="u4856_states3.png" crc="4127242130" ref="upcoming-events"/>
     <file name="u4856_states-r3.png" crc="3835715611" ref="upcoming-events"/>
     <file name="u4857-4-a3.png" crc="385806729" ref="upcoming-events"/>
@@ -534,22 +324,7 @@
     <file name="u9595_states-r4.png" crc="4147865397" ref="upcoming-events"/>
   </folder>
   <file name="index.html" crc="120245699" seo="true" mt="1519608791007" redirect="true"/>
-  <file name="games.html" crc="340441795" seo="true" mt="1519607795372" redirect="true"/>
-  <file name="about.html" crc="133406215" seo="true" mt="1519607810203" redirect="true"/>
-  <file name="upcoming-events.html" crc="219943403" seo="true" mt="1519607947478" redirect="true"/>
-=======
-    <file name="u9956-4-a3.png" crc="523789979" ref="index"/>
-    <file name="u9957_states3.png" crc="298668432" ref="index"/>
-    <file name="u9957_states-r3.png" crc="508909047" ref="index"/>
-    <file name="u9959_states3.png" crc="117695760" ref="index"/>
-    <file name="u9959_states-r3.png" crc="138633935" ref="index"/>
-    <file name="u9958_states3.png" crc="3858678718" ref="index"/>
-    <file name="u9958_states-r3.png" crc="436866312" ref="index"/>
-    <file name="u1744-44.png" crc="289675335" ref="index"/>
-  </folder>
-  <file name="index.html" crc="3876843949" seo="true" mt="1519608308036" redirect="true"/>
-  <file name="games.html" crc="501748153" seo="true" mt="1519607795372" redirect="true"/>
-  <file name="about.html" crc="3979591094" seo="true" mt="1519607810203" redirect="true"/>
-  <file name="upcoming-events.html" crc="3937392111" seo="true" mt="1519607947478" redirect="true"/>
->>>>>>> master
+  <file name="games.html" crc="3900924329" seo="true" mt="1519607795372" redirect="true"/>
+  <file name="about.html" crc="4283002660" seo="true" mt="1519607810203" redirect="true"/>
+  <file name="upcoming-events.html" crc="178122268" seo="true" mt="1519607947478" redirect="true"/>
 </manifest>
