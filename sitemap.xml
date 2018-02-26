@@ -116,14 +116,14 @@
   </url>
   <url>
     <loc>http://mightymainframe.com/upcoming-events.html</loc>
-    <lastmod>2018-02-24</lastmod>
+    <lastmod>2018-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
+      <image:loc>http://mightymainframe.com/images/logo%20white137x137.png</image:loc>
     </image:image>
   </url>
 </urlset>

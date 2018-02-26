@@ -11,21 +11,25 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "upcoming-events.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpdisclosure.js", "jquery.museresponsive.js", "require.js", "upcoming-events.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=88503871"/>
   <title>Upcoming Events</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3908197338"/>
-  <link rel="stylesheet" type="text/css" href="css/upcoming-events.css?crc=4078102611" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3906561180"/>
+  <link rel="stylesheet" type="text/css" href="css/upcoming-events.css?crc=67231620" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_upcoming-events.css?crc=4212485855" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/amaranth:n7:default.js" type="text/javascript"></script>
-  <script src="https://use.typekit.net/ik/o3rmrvBo5fgbD7k83hoX80R0cfQewQCI1D-X8seri0MfeT9gfJPly6wPH2jD5Q9uwRsLZcwuF24KjQMk52IkFQSaZQMhFeIkwDqhwR4cwhJojR9-bPG0dA81-YsodABTdcZkjAu8OcFzdPUl-AiGiY8ljA80Z14ydA90jhNlOYiaikol-AiGiY8ljA80Z14ydA90jhNlJ68zSem0OWFyd1w7fbRmSsMMeMj6MqGIQWmDZZMgx5OYuM9.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/UFvNgF88dULgtwdL5kQZQsv2bK4ReHHyIwLYfz0psz6feT9gfJPly6wPH2jD5Q9uwRsLZcwuF24KjQMk52IkFQSaZQMhFeIkwDqhwR4cwhJojR9-bPG0dA81-YsodABTdcZkjAu8OcFzdPUl-AiGiY8ljA80Z14ydA90jhNlOYiaikol-AiGiY8ljA80Z14ydA90jhNlJ68zSem0OWFyd1w7fbRmSsMMeMj6MqGIQWmDZZMgqwYFuM9.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -33,111 +37,274 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pppu4856"><!-- column -->
-    <div class="clearfix colelem" id="ppu4856"><!-- group -->
-     <a class="nonblock nontext grpelem" id="u4856" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- state-based BG images --><img id="u4856_states" alt="Welcome" src="images/blank.gif?crc=4208392903"/></a>
-     <a class="nonblock nontext MuseLinkActive grpelem" id="u4857-4" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- rasterized frame --><img id="u4857-4_img" alt="Events" width="130" height="42" src="images/u4857-4-a.png?crc=385806729"/></a>
-     <a class="nonblock nontext clip_frame grpelem" id="u4854" href="https://discord.gg/HkW8WAu" target="_blank"><!-- image --><img class="block" id="u4854_img" src="images/discord-logo-black.png?crc=216633692" alt="" title="Join our discord!" data-heightwidthratio="0.9818181818181818" data-image-width="55" data-image-height="54"/></a>
-     <a class="nonblock nontext grpelem" id="u4858" href="games.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- state-based BG images --><img id="u4858_states" alt="Games" src="images/blank.gif?crc=4208392903"/></a>
-     <a class="nonblock nontext grpelem" id="u4859" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- state-based BG images --><img id="u4859_states" alt="About" src="images/blank.gif?crc=4208392903"/></a>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="1654"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pppu4856"><!-- column -->
+     <div class="clearfix colelem" id="ppu4856"><!-- group -->
+      <a class="nonblock nontext grpelem shared_content" id="u4856" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u4856_content"><!-- state-based BG images --><img id="u4856_states" alt="Welcome" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext MuseLinkActive grpelem" id="u4857-4" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- rasterized frame --><img class="temp_no_img_src" id="u4857-4_img" alt="Events" width="130" height="42" data-orig-src="images/u4857-4-a.png?crc=385806729" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem shared_content" id="u4854" href="https://discord.gg/HkW8WAu" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u4854_content"><!-- image --><img class="block temp_no_img_src" id="u4854_img" data-orig-src="images/discord-logo-black.png?crc=216633692" alt="" title="Join our discord!" width="55" height="54" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext grpelem shared_content" id="u4858" href="games.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u4858_content"><!-- state-based BG images --><img id="u4858_states" alt="Games" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext grpelem shared_content" id="u4859" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u4859_content"><!-- state-based BG images --><img id="u4859_states" alt="About" src="images/blank.gif?crc=4208392903"/></a>
+     </div>
+     <div class="Header-Style clearfix colelem shared_content" id="u4423-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4423-4_content"><!-- content -->
+      <h1>Events</h1>
+     </div>
+     <div class="Secondary-Paragraph-Style clearfix colelem shared_content" id="u4426-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4426-4_content"><!-- content -->
+      <p>Since we host many different events, an updated list will be kept here of all our upcoming and scheduled events for each game. Updates may be delayed a day or two.</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu4432-4" data-content-guid="pu4432-4_content"><!-- group -->
+      <div class="Header-Style clearfix grpelem shared_content" id="u4432-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4432-4_content"><!-- content -->
+       <h1>Rocket League</h1>
+      </div>
+      <div class="Header-Style clearfix grpelem shared_content" id="u4474-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4474-4_content"><!-- content -->
+       <h1>Minecraft</h1>
+      </div>
+      <div class="Header-Style clearfix grpelem shared_content" id="u4477-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4477-4_content"><!-- content -->
+       <h1>Overwatch</h1>
+      </div>
+      <div class="Header-Style clearfix grpelem shared_content" id="u4480-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4480-4_content"><!-- content -->
+       <h1>PUBG</h1>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu4495-4" data-content-guid="pu4495-4_content"><!-- group -->
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4495-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4495-4_content"><!-- content -->
+       <p>Scheduling is in progress. No date chosen yet.</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4542-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4542-4_content"><!-- content -->
+       <p>Scheduling is in progress. No date chosen yet.</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4545-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4545-4_content"><!-- content -->
+       <p>Scheduling is in progress. No date chosen yet.</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem shared_content" id="u4548-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u4548-4_content"><!-- content -->
+       <p>Not ready ATM</p>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu4516" data-content-guid="pu4516_content"><!-- group -->
+      <div class="browser_width grpelem" id="u4516-bw">
+       <div id="u4516"><!-- simple frame --></div>
+      </div>
+      <div class="Header-Style clearfix grpelem" id="u4504-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <h1>January 2018</h1>
+      </div>
+      <div class="Header-Style clearfix grpelem" id="u4507-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <h1>February 2018</h1>
+      </div>
+      <div class="Header-Style clearfix grpelem" id="u4498-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <h1>History</h1>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4501-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <p>Here we will keep a record of the last year of important things that happened to and on Mighty Mainframe.</p>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4510-9" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <ul class="list0 nls-None" id="u4510-7">
+        <li>Finished adding some of the final touches on the re-branding.</li>
+        <li>Had Mighty Mainframe's first Minecraft UHC.</li>
+        <li>Started prep for our second Minecraft UHC and our first Rocket League tournament.</li>
+       </ul>
+      </div>
+      <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4519-23" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <ul class="list0 nls-None" id="u4519-21">
+        <li>
+         Hosted our first Rocket League tournament.
+         <ul class="list1" id="u4519-8">
+          <li class="Secondary-Paragraph-Style" id="u4519-3">1st - Titan</li>
+          <li class="Secondary-Paragraph-Style" id="u4519-5">2nd - CoolCreeper</li>
+          <li class="Secondary-Paragraph-Style" id="u4519-7">3rd - Worst_Ninja</li>
+         </ul>
+        </li>
+        <li>
+         Hosted our second Minecraft UHC.
+         <ul class="list1" id="u4519-13">
+          <li class="Secondary-Paragraph-Style" id="u4519-12">Winner - Gragons</li>
+         </ul>
+        </li>
+        <li>Started work on the Mighty Mainframe website.</li>
+        <li>Started planning for our third Minecraft UHC</li>
+        <li>Started planning for our second Rocket League Tournament.</li>
+       </ul>
+      </div>
+     </div>
     </div>
-    <div class="Header-Style clearfix colelem" id="u4423-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-     <h1>Events</h1>
-    </div>
-    <div class="Secondary-Paragraph-Style clearfix colelem" id="u4426-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-     <p>Since we host many different events, an updated list will be kept here of all our upcoming and scheduled events for each game. Updates may be delayed a day or two.</p>
-    </div>
-    <div class="clearfix colelem" id="pu4432-4"><!-- group -->
-     <div class="Header-Style clearfix grpelem" id="u4432-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>Rocket League</h1>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u4474-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>Minecraft</h1>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u4477-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>Overwatch</h1>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u4480-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>PUBG</h1>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu4495-4"><!-- group -->
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4495-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Scheduling is in progress. No date chosen yet.</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4542-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Scheduling is in progress. No date chosen yet.</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4545-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Scheduling is in progress. No date chosen yet.</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4548-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Not ready ATM</p>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu4516"><!-- group -->
-     <div class="browser_width grpelem" id="u4516-bw">
-      <div id="u4516"><!-- simple frame --></div>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u4504-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>January 2018</h1>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u4507-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>February 2018</h1>
-     </div>
-     <div class="Header-Style clearfix grpelem" id="u4498-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <h1>History</h1>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4501-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p>Here we will keep a record of the last year of important things that happened to and on Mighty Mainframe.</p>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4510-9" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <ul class="list0 nls-None" id="u4510-7">
-       <li>Finished adding some of the final touches on the re-branding.</li>
-       <li>Had Mighty Mainframe's first Minecraft UHC.</li>
-       <li>Started prep for our second Minecraft UHC and our first Rocket League tournament.</li>
-      </ul>
-     </div>
-     <div class="Secondary-Paragraph-Style clearfix grpelem" id="u4519-23" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <ul class="list0 nls-None" id="u4519-21">
-       <li>
-        Hosted our first Rocket League tournament.
-        <ul class="list1" id="u4519-8">
-         <li class="Secondary-Paragraph-Style" id="u4519-3">1st - Titan</li>
-         <li class="Secondary-Paragraph-Style" id="u4519-5">2nd - CoolCreeper</li>
-         <li class="Secondary-Paragraph-Style" id="u4519-7">3rd - Worst_Ninja</li>
-        </ul>
-       </li>
-       <li>
-        Hosted our second Minecraft UHC.
-        <ul class="list1" id="u4519-13">
-         <li class="Secondary-Paragraph-Style" id="u4519-12">Winner - Gragons</li>
-        </ul>
-       </li>
-       <li>Started work on the Mighty Mainframe website.</li>
-       <li>Started planning for our third Minecraft UHC</li>
-       <li>Started planning for our second Rocket League Tournament.</li>
-      </ul>
-     </div>
-    </div>
-   </div>
-   <div class="verticalspacer" data-offset-top="1818" data-content-above-spacer="1818" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="browser_width grpelem" id="u4522-bw">
-    <div class="gradient" id="u4522"><!-- column -->
-     <div class="clearfix" id="u4522_align_to_page">
-      <div class="position_content" id="u4522_position_content">
-       <a class="nonblock nontext rounded-corners clip_frame colelem" id="u4523" href="https://discord.gg/HkW8WAu" target="_blank"><!-- image --><img class="block" id="u4523_img" src="images/logo%20white.png?crc=239744689" alt="" title="Join our Discord server!" data-heightwidthratio="1" data-image-width="158" data-image-height="158"/></a>
-       <img class="colelem" id="u4525-4" alt="Mighty Mainframe" src="images/u4525-4.png?crc=4035264686" data-image-width="577"/><!-- rasterized frame -->
+    <div class="verticalspacer shared_content" data-offset-top="1818" data-content-above-spacer="1818" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="page_1_content"></div>
+    <div class="browser_width grpelem" id="u4522-bw">
+     <div class="gradient" id="u4522"><!-- group -->
+      <div class="clearfix" id="u4522_align_to_page">
+       <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u4523" href="https://discord.gg/HkW8WAu" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- image --><img class="block temp_no_img_src" id="u4523_img" data-orig-src="images/logo%20white158x158.png?crc=4172669922" alt="" title="Join our Discord server!" width="158" height="158" src="images/blank.gif?crc=4208392903"/></a>
       </div>
      </div>
     </div>
    </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4856_states-r.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4858_states-r.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4859_states-r.png?crc=3956063395" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
   </div>
-  <div class="preload_images">
-   <img class="preload" src="images/u4856_states-r.png?crc=3835715611" alt=""/>
-   <img class="preload" src="images/u4858_states-r.png?crc=4141604423" alt=""/>
-   <img class="preload" src="images/u4859_states-r.png?crc=3956063395" alt=""/>
+  <div class="breakpoint" id="bp_1653" data-min-width="1358" data-max-width="1653"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppu4854"><!-- column -->
+     <div class="clearfix colelem" id="pu4854"><!-- group -->
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u4854_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4856_content"><!-- placeholder node --></span>
+      <a class="nonblock nontext MuseLinkActive grpelem temp_no_id" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u4857-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="Events" width="130" height="42" data-orig-src="images/u4857-4-a2.png?crc=385806729" data-orig-id="u4857-4_img" src="images/blank.gif?crc=4208392903"/></a>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4858_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4859_content"><!-- placeholder node --></span>
+      <div class="clearfix grpelem shared_content" id="u9586" data-content-guid="u9586_content"><!-- column -->
+       <div class="colelem" id="u9588"><!-- simple frame --></div>
+       <div class="colelem" id="u9589"><!-- simple frame --></div>
+       <div class="colelem" id="u9587"><!-- simple frame --></div>
+      </div>
+      <ul class="AccordionWidget clearfix grpelem" id="accordionu9590" data-visibility="changed" style="visibility:hidden"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem" id="u9591"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u9597-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p class="shared_content" data-content-guid="u9597-3_0_content">&nbsp;</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u9592"><!-- column --><a class="nonblock nontext colelem shared_content" id="u9593" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u9593_content"><!-- state-based BG images --><img id="u9593_states" alt="Welcome" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext MuseLinkActive colelem" id="u9594-4" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- rasterized frame --><img class="temp_no_img_src" id="u9594-4_img" alt="Events" width="179" height="42" data-orig-src="images/u9594-4-a.png?crc=153804636" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext colelem shared_content" id="u9596" href="games.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u9596_content"><!-- state-based BG images --><img id="u9596_states" alt="Games" src="images/blank.gif?crc=4208392903"/></a><a class="nonblock nontext colelem shared_content" id="u9595" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u9595_content"><!-- state-based BG images --><img id="u9595_states" alt="About" src="images/blank.gif?crc=4208392903"/></a></div></li>
+      </ul>
+     </div>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4423-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4426-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu4432-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu4495-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu4516_content"><!-- placeholder node --></span>
+    </div>
+    <span class="verticalspacer placeholder" data-placeholder-for="page_1_content"><!-- placeholder node --></span>
+    <div class="browser_width grpelem temp_no_id shared_content" data-orig-id="u4522-bw" data-content-guid="u4522-bw_content">
+     <div class="gradient temp_no_id" data-orig-id="u4522"><!-- group -->
+      <div class="clearfix temp_no_id" data-orig-id="u4522_align_to_page">
+       <a class="nonblock nontext rounded-corners clip_frame grpelem temp_no_id" href="https://discord.gg/HkW8WAu" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u4523"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/logo%20white137x137.png?crc=331510004" alt="" title="Join our Discord server!" width="136" height="136" data-orig-id="u4523_img" src="images/blank.gif?crc=4208392903"/></a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4856_states-r2.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4858_states-r2.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4859_states-r2.png?crc=3956063395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9593_states-r.png?crc=4124618395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9596_states-r.png?crc=269725439" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9595_states-r.png?crc=4147865397" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_1357" data-min-width="740" data-max-width="1357"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu4854"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4854"><!-- group -->
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u4854_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4856_content"><!-- placeholder node --></span>
+      <a class="nonblock nontext MuseLinkActive grpelem temp_no_id" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u4857-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="Events" width="130" height="42" data-orig-src="images/u4857-4-a3.png?crc=385806729" data-orig-id="u4857-4_img" src="images/blank.gif?crc=4208392903"/></a>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4858_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4859_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u9586_content"><!-- placeholder node --></span>
+      <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu9590"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u9591"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-orig-id="u9597-3"><!-- content --><span class="placeholder" data-placeholder-for="u9597-3_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u9592"><!-- column --><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9593_content"><!-- placeholder node --></span><a class="nonblock nontext MuseLinkActive colelem temp_no_id" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u9594-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="Events" width="179" height="42" data-orig-src="images/u9594-4-a2.png?crc=153804636" data-orig-id="u9594-4_img" src="images/blank.gif?crc=4208392903"/></a><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9596_content"><!-- placeholder node --></span><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9595_content"><!-- placeholder node --></span></div></li>
+      </ul>
+     </div>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4423-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4426-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4432-4"><!-- group -->
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4432-4_content"><!-- placeholder node --></span>
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4474-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4495-4"><!-- group -->
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4495-4_content"><!-- placeholder node --></span>
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4542-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu4477-4"><!-- group -->
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4477-4_content"><!-- placeholder node --></span>
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4480-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem" id="pu4545-4"><!-- group -->
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4545-4_content"><!-- placeholder node --></span>
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4548-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu4516_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer" data-offset-top="2062" data-content-above-spacer="2062" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u4522-bw_content"><!-- placeholder node --></span>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4856_states-r3.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4858_states-r3.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4859_states-r3.png?crc=3956063395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9593_states-r2.png?crc=4124618395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9596_states-r2.png?crc=269725439" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9595_states-r2.png?crc=4147865397" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_739" data-min-width="481" data-max-width="739"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu4854"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4854"><!-- group -->
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u4854_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4856_content"><!-- placeholder node --></span>
+      <a class="nonblock nontext MuseLinkActive grpelem temp_no_id" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u4857-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="Events" width="130" height="42" data-orig-src="images/u4857-4-a4.png?crc=385806729" data-orig-id="u4857-4_img" src="images/blank.gif?crc=4208392903"/></a>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4858_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u4859_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u9586_content"><!-- placeholder node --></span>
+      <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu9590"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u9591"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-orig-id="u9597-3"><!-- content --><span class="placeholder" data-placeholder-for="u9597-3_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u9592"><!-- column --><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9593_content"><!-- placeholder node --></span><a class="nonblock nontext MuseLinkActive colelem temp_no_id" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u9594-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="Events" width="179" height="42" data-orig-src="images/u9594-4-a3.png?crc=153804636" data-orig-id="u9594-4_img" src="images/blank.gif?crc=4208392903"/></a><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9596_content"><!-- placeholder node --></span><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9595_content"><!-- placeholder node --></span></div></li>
+      </ul>
+     </div>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4423-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4426-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4432-4"><!-- group -->
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4432-4_content"><!-- placeholder node --></span>
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4474-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4495-4"><!-- group -->
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4495-4_content"><!-- placeholder node --></span>
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4542-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4477-4"><!-- group -->
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4477-4_content"><!-- placeholder node --></span>
+      <span class="Header-Style clearfix grpelem placeholder" data-placeholder-for="u4480-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu4545-4"><!-- group -->
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4545-4_content"><!-- placeholder node --></span>
+      <span class="Secondary-Paragraph-Style clearfix grpelem placeholder" data-placeholder-for="u4548-4_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu4516_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer" data-offset-top="2134" data-content-above-spacer="2134" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u4522-bw_content"><!-- placeholder node --></span>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u4856_states-r4.png?crc=3835715611" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4858_states-r4.png?crc=4141604423" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u4859_states-r4.png?crc=3956063395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9593_states-r3.png?crc=4124618395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9596_states-r3.png?crc=269725439" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9595_states-r3.png?crc=4147865397" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppu9586"><!-- column -->
+     <div class="clearfix colelem" id="pu9586"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u9586_content"><!-- placeholder node --></span>
+      <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu9590"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u9591"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem temp_no_id" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-orig-id="u9597-3"><!-- content --><span class="placeholder" data-placeholder-for="u9597-3_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u9592"><!-- column --><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9593_content"><!-- placeholder node --></span><a class="nonblock nontext MuseLinkActive colelem temp_no_id" href="upcoming-events.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u9594-4"><!-- rasterized frame --><img class="temp_no_id temp_no_img_src" alt="Events" width="179" height="42" data-orig-src="images/u9594-4-a4.png?crc=153804636" data-orig-id="u9594-4_img" src="images/blank.gif?crc=4208392903"/></a><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9596_content"><!-- placeholder node --></span><span class="nonblock nontext colelem placeholder" data-placeholder-for="u9595_content"><!-- placeholder node --></span></div></li>
+      </ul>
+     </div>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4423-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4426-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4432-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4495-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4474-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4542-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4477-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4545-4_content"><!-- placeholder node --></span>
+     <span class="Header-Style clearfix colelem placeholder" data-placeholder-for="u4480-4_content"><!-- placeholder node --></span>
+     <span class="Secondary-Paragraph-Style clearfix colelem placeholder" data-placeholder-for="u4548-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu4516_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer" data-offset-top="2336" data-content-above-spacer="2335" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u4522-bw_content"><!-- placeholder node --></span>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u9593_states-r4.png?crc=4124618395" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9596_states-r4.png?crc=269725439" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u9595_states-r4.png?crc=4147865397" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -150,15 +317,16 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpdisclosure","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#accordionu9590', ['#bp_1653', '#bp_1357', '#bp_739', '#bp_480'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu9590 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
