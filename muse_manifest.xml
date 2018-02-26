@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519609518623">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mightymainframe.com" resolutions="1x" timestamp="1519610181531">
   <folder name="css">
     <file name="site_global.css" crc="3906561180"/>
     <file name="upcoming-events.css" crc="3883000540" ref="upcoming-events"/>
@@ -7,8 +7,8 @@
     <file name="nomq_index.css" crc="123308868" ref="index"/>
     <file name="games.css" crc="229800286" ref="games"/>
     <file name="nomq_games.css" crc="4235050206" ref="games"/>
-    <file name="about.css" crc="3782015709" ref="about"/>
-    <file name="nomq_about.css" crc="4065174023" ref="about"/>
+    <file name="about.css" crc="4039784011" ref="about"/>
+    <file name="nomq_about.css" crc="324496388" ref="about"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games:about:upcoming-events"/>
@@ -78,6 +78,9 @@
     <file name="u8200_states.png" crc="385806729" ref="games"/>
     <file name="u8200_states-r.png" crc="224875154" ref="games"/>
     <file name="discord-logo-black.png" crc="216633692" seo="true" ref="games:about:upcoming-events">
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
+      <caption webpage="games" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
       <caption webpage="upcoming-events" alt=""/>
@@ -85,9 +88,6 @@
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
-      <caption webpage="games" alt=""/>
     </file>
     <file name="u8201-4-a.png" crc="483549822" ref="games"/>
     <file name="u8202_states.png" crc="266738960" ref="games"/>
@@ -109,6 +109,8 @@
     </file>
     <file name="logo white158x158.png" crc="4172669922" seo="true" ref="games:about">
       <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
       <caption webpage="games" alt=""/>
     </file>
     <file name="u5508-4.png" crc="3798288047" ref="games"/>
@@ -129,7 +131,7 @@
       <caption webpage="games" alt=""/>
     </file>
     <file name="u5508-42.png" crc="196962753" ref="games"/>
-    <file name="logo white126x126.png" crc="3874491973" seo="true" ref="games:about">
+    <file name="logo white126x126.png" crc="3874491973" seo="true" ref="games">
       <caption webpage="about" alt=""/>
       <caption webpage="games" alt=""/>
     </file>
@@ -150,7 +152,7 @@
       <caption webpage="games" alt=""/>
     </file>
     <file name="u5508-43.png" crc="3905586613" ref="games"/>
-    <file name="logo white95x95.png" crc="3887109539" seo="true" ref="games:about">
+    <file name="logo white95x95.png" crc="3887109539" seo="true" ref="games">
       <caption webpage="about" alt=""/>
       <caption webpage="games" alt=""/>
     </file>
@@ -328,6 +330,6 @@
   </folder>
   <file name="index.html" crc="120245699" seo="true" mt="1519608791007" redirect="true"/>
   <file name="games.html" crc="3900924329" seo="true" mt="1519607795372" redirect="true"/>
-  <file name="about.html" crc="386501325" seo="true" mt="1519609436780" redirect="true"/>
+  <file name="about.html" crc="305482596" seo="true" mt="1519610135454" redirect="true"/>
   <file name="upcoming-events.html" crc="4368743" seo="true" mt="1519609475019" redirect="true"/>
 </manifest>
