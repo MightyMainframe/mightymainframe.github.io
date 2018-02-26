@@ -21,6 +21,9 @@
       <image:loc>http://mightymainframe.com/images/grass.png</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://mightymainframe.com/images/discord-logo-black.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://mightymainframe.com/images/rocketleague-logo198x198.png</image:loc>
     </image:image>
     <image:image>
@@ -71,12 +74,9 @@
   </url>
   <url>
     <loc>http://mightymainframe.com/about.html</loc>
-    <lastmod>2018-02-24</lastmod>
+    <lastmod>2018-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://mightymainframe.com/images/logo%20white.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/colored%20logo.png</image:loc>
     </image:image>
@@ -109,6 +109,9 @@
     </image:image>
     <image:image>
       <image:loc>http://mightymainframe.com/images/delltalogo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://mightymainframe.com/images/logo%20white162x162.png</image:loc>
     </image:image>
   </url>
   <url>
